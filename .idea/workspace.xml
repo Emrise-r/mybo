@@ -17,7 +17,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Myhop" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bbXwmNjJEbKX4gzxkklGTGsNHd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -32,6 +32,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\mybo\source" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -44,7 +49,7 @@
       <updated>1588902007084</updated>
       <workItem from="1588902008472" duration="1859000" />
       <workItem from="1588911457030" duration="569000" />
-      <workItem from="1588912061705" duration="2525000" />
+      <workItem from="1588912061705" duration="2877000" />
     </task>
     <servers />
   </component>
