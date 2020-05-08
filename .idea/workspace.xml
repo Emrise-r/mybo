@@ -33,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -51,7 +52,7 @@
       <updated>1588902007084</updated>
       <workItem from="1588902008472" duration="1859000" />
       <workItem from="1588911457030" duration="569000" />
-      <workItem from="1588912061705" duration="8892000" />
+      <workItem from="1588912061705" duration="13684000" />
     </task>
     <servers />
   </component>
@@ -59,6 +60,18 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="498" y="129" key="FileChooserDialogImpl" timestamp="1588929704592">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="498" y="129" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1588929704592" />
+    <state x="142" y="5" key="SettingsEditor" timestamp="1588933564530">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1588933564530" />
+    <state x="413" y="234" width="622" height="393" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1588930027846">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="413" y="234" width="622" height="393" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1280.720@0.0.1280.720" timestamp="1588930027846" />
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1588920678163">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
