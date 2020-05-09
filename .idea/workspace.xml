@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Myhop/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Myhop/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybo/source/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/CV/CV.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     </key>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\nqvin\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +56,7 @@
       <workItem from="1588942014299" duration="620000" />
       <workItem from="1588999254164" duration="2072000" />
       <workItem from="1589001372589" duration="8951000" />
+      <workItem from="1589013004484" duration="335000" />
     </task>
     <servers />
   </component>
@@ -65,14 +64,14 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="498" y="129" key="FileChooserDialogImpl" timestamp="1588929704592">
+    <state x="498" y="129" key="FileChooserDialogImpl" timestamp="1589013246228">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="498" y="129" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1588929704592" />
-    <state x="142" y="5" key="SettingsEditor" timestamp="1589003648596">
+    <state x="498" y="129" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1589013246228" />
+    <state x="142" y="5" key="SettingsEditor" timestamp="1589013340646">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="142" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1589003648596" />
+    <state x="142" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1589013340646" />
     <state x="413" y="234" width="622" height="393" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1588930027846">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
