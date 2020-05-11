@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C0520h1/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/C0520h1/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Myhop/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Myhop/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Form/Form 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Form/Form 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/Nghich.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Script/Nghich.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/C0520h1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bbXwmNjJEbKX4gzxkklGTGsNHd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,7 +63,7 @@
       <workItem from="1589013004484" duration="426000" />
       <workItem from="1589018860300" duration="7340000" />
       <workItem from="1589114924025" duration="13921000" />
-      <workItem from="1589159638742" duration="21792000" />
+      <workItem from="1589159638742" duration="24764000" />
     </task>
     <servers />
   </component>

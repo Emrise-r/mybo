@@ -6,12 +6,11 @@
 </head>
 <body>
 <h1>A Web Page</h1>
-<p>A Paragraph</p>
-<button type="button" onclick="myFunction()">amg</button>
-
+<p id="a">Hit me please</p>
+<button type="button" onclick="myFunction();alert('abc')"> Hit </button>
 <script>
     function myFunction() {
-        document.getElementsByTagName("p").innerHTML = "Paragraph changed.";
+        document.getElementById("a").innerHTML= "surprise.";
     }
 </script>
 </body>
