@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <style>
+        .row {
+            width: 70%;
+            margin-top: 8px;
+            float: left;
+        }
+        .a1 {
+            width: 20%;
+            margin-top: 8px;
+            float: left;
+        }
+        .a2 {
+            width: 1%;
+            margin-top: 8px;
+            float: left;
+        }
+        .a3 {
+            width: 10%;
+            margin-top: 8px;
+            float: left;
+        }
+        .a4 {
+            width: 3%;
+            margin-top: 8px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<h1>Calculator</h1>
+<div class="row">
+    <div class="a1">
+        <input type="number" id="n1" value="" placeholder="Nhap so" size="300px">
+    </div>
+    <div class="a2"></div>
+    <div class="a1">
+        <input type="number" id="n2" value="" placeholder="Nhap so" size="300px">
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="a3">
+        <button onclick="mf1()" style="size: 50px">Addition(+)</button>
+    </div>
+    <div class="a4"></div>
+    <div class="a3">
+        <button onclick="mf2()" style="size: 50px">Subtraction(-)</button>
+    </div>
+    <div class="a4"></div>
+    <div class="a3">
+        <button onclick="mf3()" style="size: 50px">Multiplication(*)</button>
+    </div>
+    <div class="a4"></div>
+    <div class="a3">
+        <button onclick="mf4()" style="size: 50px">Division(/)</button>
+    </div>
+    <div class="a4"></div>
+</div>
+<br>
+<p id="kq"></p>
+<script>
+    function mf1() {
+        let a= parseInt(document.getElementById('n1').value);
+        let b= parseInt(document.getElementById('n2').value);
+        let c= a+b;
+        document.getElementById('kq').innerHTML=c;
+    }
+    function mf2() {
+        let h= parseInt(document.getElementById('n1').value);
+        let j= parseInt(document.getElementById('n2').value);
+        let c= h-j;
+        document.getElementById('kq').innerHTML=c;
+    }
+    function mf3() {
+        let a= parseInt(document.getElementById('n1').value);
+        let b= parseInt(document.getElementById('n2').value);
+        let c= a*b;
+        document.getElementById('kq').innerHTML=c;
+    }
+    function mf4() {
+        let a= parseInt(document.getElementById('n1').value);
+        let b= parseInt(document.getElementById('n2').value);
+        let c= a/b;
+        document.getElementById('kq').innerHTML=c;
+    }
+
+</script>
+</body>
+</html>
