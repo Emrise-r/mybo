@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT chuyen doi tien te</title>
+    <style>
+        .row {
+            width: 100%;
+            margin-top: 8px;
+            float: left;
+        }
+        .a1 {
+            width: 30%;
+            margin-top: 8px;
+            float: left;
+        }
+        .a2 {
+            width: 25%;
+            margin-top: 8px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class="a1">
+        <label for="amount">Amount</label>
+        <br>
+        <input type="number" name="amount" id="tien" value="" placeholder="Nhap so tien can chuyen doi" size="300px">
+    </div>
+    <div class="a2">
+        <label for="fromcurrency">From currency</label> <br>
+        <select id="option1" name="fromcurrency">
+            <option value="">Viet Nam</option>
+            <option value="">USD</option>
+        </select>
+    </div>
+    <div class="a2">
+        <label for="tocurrency">To currency</label> <br>
+        <select id="option2" name="tocurrency">
+            <option value="2">Viet Nam</option>
+            <option value="1">USD</option>
+        </select>
+    </div>
+</div>
+<button onclick="myFunction()">Convert</button>
+<script>
+    function myFunction() {
+        if  document.getElementById("option1").value =Viet Nam;
+        document.getElementById("option2").value =USD;
+        else document.getElementById("option2").value
+
+    }
+</script>
+</body>
+</html>
