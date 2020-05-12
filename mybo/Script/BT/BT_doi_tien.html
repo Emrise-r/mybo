@@ -24,32 +24,35 @@
 <body>
 <div class="row">
     <div class="a1">
-        <label for="amount">Amount</label>
+        <label>Amount</label>
         <br>
         <input type="number" name="amount" id="tien" value="" placeholder="Nhap so tien can chuyen doi" size="300px">
     </div>
     <div class="a2">
-        <label for="fromcurrency">From currency</label> <br>
-        <select id="option1" name="fromcurrency">
-            <option value="">Viet Nam</option>
-            <option value="">USD</option>
+        <label>From currency</label> <br>
+        <select id="option1" name="fromcurrency" value>
+            <option value=1>Viet Nam</option>
+            <option value=23000>USD</option>
         </select>
     </div>
     <div class="a2">
-        <label for="tocurrency">To currency</label> <br>
+        <label>To currency</label> <br>
         <select id="option2" name="tocurrency">
-            <option value="2">Viet Nam</option>
-            <option value="1">USD</option>
+            <option value=1>Viet Nam</option>
+            <option value=23000>USD</option>
         </select>
     </div>
 </div>
 <button onclick="myFunction()">Convert</button>
+<br>
+<p id="kq"></p>
 <script>
     function myFunction() {
-        if  document.getElementById("option1").value =Viet Nam;
-        document.getElementById("option2").value =USD;
-        else document.getElementById("option2").value
-
+        let a= document.getElementById('tien').value;
+        let b= document.getElementById('option1').value;
+        let c=document.getElementById('option2').value;
+        let d= a*b/c;
+        document.getElementById('kq').innerHTML=d;
     }
 </script>
 </body>
