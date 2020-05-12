@@ -6,7 +6,7 @@
 </head>
 <body>
 <script>
-    let userName = prompt("Who's there?",'');
+    let userName = prompt("Who's there?");
     if (userName == 'Admin') {
         mf1();
     } else if (userName == null) {
@@ -15,7 +15,7 @@
         alert("I don't know you");
     }
     function mf1() {
-        let pass = prompt('password ? ','');
+        let pass = prompt('password ? ');
         if (pass == 'TheMaster') {
             alert('Welcome!');
         } else if (pass == null) {
