@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/Script/Thuc_hien_toan_tu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Script/BT/BT_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Script/BT/BT_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Script/BT/BT_3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C0520h1/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/C0520h1/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Myhop/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Myhop/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/Nghich.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Script/Nghich/Nghich.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/Nghich_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Script/Nghich/Nghich_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/Nghich_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Script/Nghich/Nghich_3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +46,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\mybo\Script\BT" />
+      <recent name="D:\git\mybo\Script\Nghich" />
       <recent name="D:\git\mybo\CV" />
       <recent name="D:\git\mybo\source" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Nghich_3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/git/mybo/Script/Nghich_3.html" useBuiltInWebServerPort="true">
+    <configuration name="Nghich_3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/git/mybo/Script/Nghich/Nghich_3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -76,7 +83,7 @@
       <workItem from="1589018860300" duration="7340000" />
       <workItem from="1589114924025" duration="13921000" />
       <workItem from="1589159638742" duration="28656000" />
-      <workItem from="1589247135507" duration="10607000" />
+      <workItem from="1589247135507" duration="12942000" />
     </task>
     <servers />
   </component>
