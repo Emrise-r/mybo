@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/Script/Nghich 2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C0520h1/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/C0520h1/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Myhop/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Myhop/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybo/Script/Nghich.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Script/Nghich.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -63,7 +61,8 @@
       <workItem from="1589013004484" duration="426000" />
       <workItem from="1589018860300" duration="7340000" />
       <workItem from="1589114924025" duration="13921000" />
-      <workItem from="1589159638742" duration="28242000" />
+      <workItem from="1589159638742" duration="28656000" />
+      <workItem from="1589247135507" duration="3124000" />
     </task>
     <servers />
   </component>
@@ -79,18 +78,18 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="498" y="129" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1589013246228" />
-    <state x="142" y="5" key="SettingsEditor" timestamp="1589013340646">
+    <state x="142" y="5" key="SettingsEditor" timestamp="1589250937176">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="142" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1589013340646" />
+    <state x="142" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1589250937176" />
     <state x="450" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589189267056">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="450" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1589189267056" />
-    <state x="413" y="234" width="622" height="393" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1588930027846">
+    <state x="413" y="234" width="622" height="393" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1589250934316">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="413" y="234" width="622" height="393" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1280.720@0.0.1280.720" timestamp="1588930027846" />
+    <state x="413" y="234" width="622" height="393" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1280.720@0.0.1280.720" timestamp="1589250934316" />
     <state x="297" y="163" key="run.anything.popup" timestamp="1589001820350">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
