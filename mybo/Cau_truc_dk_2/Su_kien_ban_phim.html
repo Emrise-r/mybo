@@ -26,24 +26,25 @@
         element.style.left = parseInt(element.style.left) - 5 + 'px';
     };
 
-    function moveSelection(evt) {
+    function move(evt) {
         switch (evt.keyCode) {
-            case 38:
+            case 40:
                 down();
                 break;
-            case 39:
+            case 37:
                 left();
                 break;
-            case 37:
+            case 39:
                 right();
                 break;
-            case 40:
+            case 38:
                 up();
                 break;
         }
     }
+    //keycode :https://keycode.info//
     function ready() {
-        window.addEventListener("keydown", moveSelection);
+        window.addEventListener("keydown", move);
     }
 </script>
 </body>
