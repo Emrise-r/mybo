@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do You Love Me</title>
+</head>
+<body>
+<div class="container">
+    <div class="col-25">
+        <label></label>
+    </div>
+    <div class="col-75">
+        <h1>Do You Love Me?</h1>
+        <div class="row">
+            <button onclick="mf1()">Yes</button>
+            <input type="button" id="a1" onmouseover="mf2()" value="No" style="position:absolute; left:210px; top:80px;">
+        </div>
+    </div>
+    <div class="col-25">
+        <label></label>
+    </div>
+</div>
+<script>
+    function mf1() {
+        document.getElementById('a2').src='https://media.tenor.com/images/0413f21bb94fda8b2b355916d176da28/tenor.gif'
+    }
+    function mf2() {
+        let x = Math.round(Math.random() * window.innerWidth);
+        let y = Math.round(Math.random() * window.innerHeight);
+        document.getElementById('a1').style.left = x + 'px';
+        document.getElementById('a1').style.top = y + 'px';
+    }
+</script>
+<br><br><br>
+<p id="a2" style="width: auto; height: auto" ></p>
+</body>
+</html>
