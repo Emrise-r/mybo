@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Su kien ban phim</title>
+</head>
+<body onload="ready()">
+<img id="doremon" src="https://media1.tenor.com/images/8261cc3d819740c2a6baa5d5095d048f/tenor.gif?itemid=16565646"
+     style="position:absolute;left: 0;top: 0;" height="80" width="100">
+<script>
+    function up() {
+        let element=document.getElementById('doremon');
+        element.style.top = parseInt(element.style.top) + 5 + 'px';
+    };
+    function down() {
+        let element = document.getElementById('doremon');
+        element.style.top = parseInt(element.style.top) - 5 + 'px';
+    };
+    function left() {
+        let element = document.getElementById('doremon');
+        element.style.left = parseInt(element.style.left) + 5 + 'px';
+    };
+
+    function right() {
+        let element = document.getElementById('doremon');
+        element.style.left = parseInt(element.style.left) - 5 + 'px';
+    };
+
+    function moveSelection(evt) {
+        switch (evt.keyCode) {
+            case 38:
+                down();
+                break;
+            case 39:
+                left();
+                break;
+            case 37:
+                right();
+                break;
+            case 40:
+                up();
+                break;
+        }
+    }
+    function ready() {
+        window.addEventListener("keydown", moveSelection);
+    }
+</script>
+</body>
+</html>
