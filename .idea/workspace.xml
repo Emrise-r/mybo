@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/Cau_truc_dk_2/BMI.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Cau_truc_dk_2/BMI_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Cau_truc_dk_2/BT_switch_case.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk_2/BMI.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
       <workItem from="1589283233051" duration="9567000" />
       <workItem from="1589332537672" duration="7968000" />
       <workItem from="1589344015160" duration="6165000" />
-      <workItem from="1589351562278" duration="738000" />
+      <workItem from="1589351562278" duration="5299000" />
     </task>
     <servers />
   </component>

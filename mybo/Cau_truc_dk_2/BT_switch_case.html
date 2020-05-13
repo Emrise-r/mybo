@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT</title>
+    <style type="text/css">
+        .col-25 {
+            float: left;
+            width: 20%;
+            margin-top: 6px;
+        }
+
+        .col-75 {
+            float: left;
+            width: 20%;
+            margin-top: 6px;
+        }
+
+        .container {
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .row:after {
+            background-color: #f2f2f2;
+            display: table;
+            content: "";
+        }
+
+        input[type=button] {
+            background-color: aqua;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+            margin-right: 6%;
+            margin-top: 10px ;
+        }
+        input[type=button]:hover {
+            background-color: mediumaquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-75">
+            <input type="number" id="b1" placeholder="thang" name="thang">
+        </div>
+        <div class="col-25">
+            <input type="button" onclick="f1()" value="Tinh so ngay">
+        </div>
+        <br><br>
+        <h1 id="c1"></h1>
+    </div>
+    <script>
+        function f1() {
+        let m = parseInt(document.getElementById('b1').value);
+        switch (m) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                document.getElementById('c1').innerHTML="thang "+ m + " co 31 ngay";
+               break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                document.getElementById('c1').innerHTML="thang "+ m + " co 30 ngay";
+                break;
+            case 2:
+                document.getElementById('c1').innerHTML="thang "+ m + " co 28 hoac 29 ngay";
+            break;
+            default:
+                document.getElementById('c1').innerHTML=" 1 nam chi co 12 thang thoi, ban cu dua";
+        }
+        }
+    </script>
+
+</body>
+</html>
