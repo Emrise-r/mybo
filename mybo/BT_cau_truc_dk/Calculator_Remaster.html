@@ -6,86 +6,84 @@
 </head>
 <body>
 <div>
-    <input type="text" id="A" placeholder="Nhap phep tinh">
+    <input type="text" id="A" placeholder="Nhap phep tinh" size="12px">
     <br>
-    <button onclick="nhap1()">1</button>
-    <button onclick="nhap2()">2</button>
-    <button onclick="nhap3()">3</button>
-    <button onclick="nhap11()">+</button>
+    <button onclick="nhap('1')">1</button>
+    <button onclick="nhap('2')">2</button>
+    <button onclick="nhap('3')">3</button>
+    <button onclick="nhap('+')">+</button>
     <br>
-    <button onclick="nhap4()">4</button>
-    <button onclick="nhap5()">5</button>
-    <button onclick="nhap6()">6</button>
-    <button onclick="nhap12()">-</button>
+    <button onclick="nhap('4')">4</button>
+    <button onclick="nhap('5')">5</button>
+    <button onclick="nhap('6')">6</button>
+    <button onclick="nhap('-')">-</button>
     <br>
-    <button onclick="nhap7()">7</button>
-    <button onclick="nhap8()">8</button>
-    <button onclick="nhap9()">9</button>
-    <button onclick="nhap13()">x</button>
+    <button onclick="nhap('7')">7</button>
+    <button onclick="nhap('8')">8</button>
+    <button onclick="nhap('9')">9</button>
+    <button onclick="nhap('*')">x</button>
     <br>
     <button onclick="reset()">c</button>
-    <button onclick="nhap0()">0</button>
+    <button onclick="nhap('0')">0</button>
     <button onclick="tinh()">=</button>
-    <button onclick="nhap14()">/</button>
+    <button onclick="nhap('/')">/</button>
 </div>
 <script>
 
-    function nhap1() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '1';
+    function nhap(number) {
+        document.getElementById('A').value += number;
     }
-    function nhap2() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '2';
-    }
-    function nhap3() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '3';
-    }
-    function nhap4() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '4';
-    }
-    function nhap5() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '5';
-    }
-    function nhap6() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '6';
-    }
-    function nhap7() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '7';
-    }
-    function nhap8() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '8';
-    }
-    function nhap9() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '9';
-    }
-    function nhap0() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '0';
-    }
-    function nhap11() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '+';
-    }
-    function nhap12() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '-';
-    }
-    function nhap13() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '*';
-    }
-    function nhap14() {
-        let k= document.getElementById('A').value;
-        document.getElementById('A').value= k + '/';
-    }
+    // function nhap2() {
+    //     let k= document.getElementById('A').value;
+    //     document.getElementById('A').value= k + '2';
+    // }
+    // function nhap3() {
+    //     let k= document.getElementById('A').value;
+    //     document.getElementById('A').value= k + '3';
+    // }
+    // function nhap4() {
+    //     let k= document.getElementById('A').value;
+    //     document.getElementById('A').value= k + '4';
+    // }
+    // function nhap5() {
+    //     let k= document.getElementById('A').value;
+    //     document.getElementById('A').value= k + '5';
+    // }
+    // function nhap6() {
+    //     let k= document.getElementById('A').value;
+    //     document.getElementById('A').value= k + '6';
+    // }
+    // function nhap7() {
+    //     let k= document.getElementById('A').value;
+    //     document.getElementById('A').value= k + '7';
+    // }
+    // function nhap8() {
+    //     let k= document.getElementById('A').value;
+    //     document.getElementById('A').value= k + '8';
+    // }
+    // function nhap9() {
+    //     let k= document.getElementById('A').value;
+    //     document.getElementById('A').value= k + '9';
+    // }
+    // function nhap0() {
+    //     let k= document.getElementById('A').value;
+    //     document.getElementById('A').value= k + '0';
+    // }
+    // function nhap11() {
+    //     let k= document.getElementById('A').value;
+    //     document.getElementById('A').value= k + '+';
+    // }
+    // function nhap12() {
+    //     let k= document.getElementById('A').value;
+    //     document.getElementById('A').value= k + '-';
+    // }
+    // function nhap13() {
+    //     let k= document.getElementById('A').value;
+    //     document.getElementById('A').value= k + '*';
+    // }
+    // function nhap14() {
+    //     let k= document.getElementById('A').value;
+    //     document.getElementById('A').value= k + '/';
     function tinh() {
         let k = document.getElementById('A').value;
         document.getElementById('A').value = eval(k);

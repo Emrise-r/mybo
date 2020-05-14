@@ -4,7 +4,6 @@
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Calculator_Remaster.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Calculator_Remaster.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk_2/Good_fast_cheap.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Cau_truc_dk_2/Good_fast_cheap.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +34,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybo/BT_cau_truc_dk" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\mybo\BT_cau_truc_dk" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git\mybo\Script\BT" />
       <recent name="D:\git\mybo\Script\Nghich" />
@@ -97,7 +99,7 @@
       <workItem from="1589351562278" duration="6475000" />
       <workItem from="1589358736312" duration="6966000" />
       <workItem from="1589419357280" duration="1432000" />
-      <workItem from="1589420876377" duration="19644000" />
+      <workItem from="1589420876377" duration="23202000" />
     </task>
     <servers />
   </component>
