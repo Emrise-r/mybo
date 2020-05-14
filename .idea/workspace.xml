@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/KT_a_chia_het_b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Kt_tuoi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Calculator_Remaster.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Calculator_Remaster.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <workItem from="1589351562278" duration="6475000" />
       <workItem from="1589358736312" duration="6966000" />
       <workItem from="1589419357280" duration="1432000" />
-      <workItem from="1589420876377" duration="23202000" />
+      <workItem from="1589420876377" duration="24308000" />
     </task>
     <servers />
   </component>
@@ -211,9 +212,9 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="297" y="163" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1589253734769" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589252554835">
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589447833698">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1589252554835" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1589447833698" />
   </component>
 </project>
