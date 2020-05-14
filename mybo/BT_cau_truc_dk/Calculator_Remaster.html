@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<div>
+    <input type="text" id="A" placeholder="Nhap phep tinh">
+    <br>
+    <button onclick="nhap1()">1</button>
+    <button onclick="nhap2()">2</button>
+    <button onclick="nhap3()">3</button>
+    <button onclick="nhap11()">+</button>
+    <br>
+    <button onclick="nhap4()">4</button>
+    <button onclick="nhap5()">5</button>
+    <button onclick="nhap6()">6</button>
+    <button onclick="nhap12()">-</button>
+    <br>
+    <button onclick="nhap7()">7</button>
+    <button onclick="nhap8()">8</button>
+    <button onclick="nhap9()">9</button>
+    <button onclick="nhap13()">x</button>
+    <br>
+    <button onclick="reset()">c</button>
+    <button id="0" value="0" onclick="nhap0()">0</button>
+    <button id="=" onclick="tinh()">=</button>
+    <button id="/" value="/" onclick="nhap14()">/</button>
+</div>
+<script>
+
+    function nhap1() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '1';
+    }
+    function nhap2() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '2';
+    }
+    function nhap3() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '3';
+    }
+    function nhap4() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '4';
+    }
+    function nhap5() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '5';
+    }
+    function nhap6() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '6';
+    }
+    function nhap7() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '7';
+    }
+    function nhap8() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '8';
+    }
+    function nhap9() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '9';
+    }
+    function nhap0() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '0';
+    }
+    function nhap11() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '+';
+    }
+    function nhap12() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '-';
+    }
+    function nhap13() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '*';
+    }
+    function nhap14() {
+        let k= document.getElementById('A').value;
+        document.getElementById('A').value= k + '/';
+    }
+    function tinh() {
+        let k = document.getElementById('A').value;
+        document.getElementById('A').value = eval(k);
+    }
+    function reset() {
+        document.getElementById('A').value = null;
+    }
+
+</script>
+</body>
+</html>
