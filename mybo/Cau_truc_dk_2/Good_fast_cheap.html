@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Good fast cheap</title>
+</head>
+<body>
+<fieldset>
+    <legend>Good fast cheap</legend>
+    <div>
+        <form>
+            <img src="https://images.squarespace-cdn.com/content/v1/5d77e56c1fc5e024160affa9/1588605938070-47LVOTN88AV6X259RRIQ/ke17ZwdGBToddI8pDm48kGdKNJstQw9Enxbr9ezdTDZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwHki64v1-CgV-d6lPs74V6ByP0i4APIGt01mPRdAKCwGQq7pyceIB3qwcF11VHQEU/NGMcircle-06.png"
+                 id="a1" style="position: absolute;left: 10px; width: 10px; height: 10px"/>
+        </form>
+        <button onclick="mf1()" style="position:absolute; left:100px; top:30px;">Good</button>
+    </div>
+    <br>
+    <div>
+        <form>
+            <img src="https://images.squarespace-cdn.com/content/v1/5d77e56c1fc5e024160affa9/1588605938070-47LVOTN88AV6X259RRIQ/ke17ZwdGBToddI8pDm48kGdKNJstQw9Enxbr9ezdTDZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwHki64v1-CgV-d6lPs74V6ByP0i4APIGt01mPRdAKCwGQq7pyceIB3qwcF11VHQEU/NGMcircle-06.png"
+                 id="a2" style=" position: absolute;left: 10px; width: 10px; height: 10px"/>
+        </form>
+        <button onclick="mf2()" style="position:absolute; left:100px; top:65px;">Good</button>
+    </div>
+    <br>
+    <div>
+        <form>
+            <img src="https://images.squarespace-cdn.com/content/v1/5d77e56c1fc5e024160affa9/1588605938070-47LVOTN88AV6X259RRIQ/ke17ZwdGBToddI8pDm48kGdKNJstQw9Enxbr9ezdTDZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwHki64v1-CgV-d6lPs74V6ByP0i4APIGt01mPRdAKCwGQq7pyceIB3qwcF11VHQEU/NGMcircle-06.png"
+                 id="a3" style=" position: absolute;left: 10px; width: 10px; height: 10px"/>
+        </form>
+        <button onclick="mf3()" style="position:absolute; left:100px; top:100px;">Good</button>
+    </div>
+</fieldset>
+<script>
+    let x1= parseInt(document.getElementById('a1').style.left);
+    let x2= parseInt(document.getElementById('a2').style.left);
+    let x3= parseInt(document.getElementById('a3').style.left);
+    function move1() {
+            let element = document.getElementById('a1');
+            element.style.left = parseInt(element.style.left) + 10 + 'px';
+    }
+    function back1() {
+            let element = document.getElementById('a1');
+            element.style.left = parseInt(element.style.left) - 10 + 'px';
+    }
+    function move2() {
+        let element = document.getElementById('a2');
+        element.style.left = parseInt(element.style.left) + 10 + 'px';
+    }
+    function back2() {
+        let element = document.getElementById('a2');
+        element.style.left = parseInt(element.style.left) - 10 + 'px';
+    }
+    function move3() {
+        let element = document.getElementById('a3');
+        element.style.left = parseInt(element.style.left) + 10 + 'px';
+    }
+    function back3() {
+        let element = document.getElementById('a3');
+        element.style.left = parseInt(element.style.left) - 10 + 'px';
+    }
+    function mf1() {
+        move1()
+        if (x2+x3 == 20)
+            back2();
+    }
+    function mf2() {
+        move2()
+        if (x1+x3 == 20)
+            back3();
+    }
+    function mf3() {
+        move3()
+        if (x1+x2 == 20)
+            back1();
+    }
+</script>
+</body>
+</html>
