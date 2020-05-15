@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Hoa hong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Hoc_luc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/So_lon_nhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Tinh_tien_dien_thoai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/so_duong_hay_am.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Doi_do_C_sang_F.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Doi_met_sang_feet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Tinh_S_hinh_chu_nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Tinh_S_hinh_vuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Tinh_S_tam_giac_vuong_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +105,7 @@
       <workItem from="1589419357280" duration="1432000" />
       <workItem from="1589420876377" duration="24636000" />
       <workItem from="1589476002064" duration="1583000" />
-      <workItem from="1589503403791" duration="8930000" />
+      <workItem from="1589503403791" duration="15030000" />
     </task>
     <servers />
   </component>

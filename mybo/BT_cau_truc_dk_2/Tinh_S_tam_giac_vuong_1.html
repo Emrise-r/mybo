@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh S tam giac vuong</title>
+</head>
+<body>
+<script>
+    let a= parseInt(prompt('Nhap canh ke goc vuong 1'));
+    let b= parseInt(prompt('Nhap canh ke goc vuong 2'));
+    let c= parseInt(prompt('Nhap canh huyen'));
+    if (a>c || b>c || a==undefined && b==undefined || a==undefined && c==undefined || b==undefined && c==undefined )
+        alert('Ban dua toi a');
+    else {
+        if (a==undefined) {
+            a= Math.sqrt(c**2 - b**2);
+            S= a*b/2;
+        }
+        if (b==undefined) {
+            b= Math.sqrt(c**2 - a**2);
+            S= a*b/2;
+        }
+        if (a != undefined && b != undefined) {
+            S= a*b/2;
+        }
+
+    }
+    alert('Dien tich tam giac = '+ S);
+
+</script>
+</body>
+</html>
