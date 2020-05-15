@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luong</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt('Nhap doanh thu ban hang don vi trieu dong'));
+    if (n<=200) {
+        l = n*7/100;
+       alert('Luong cua ban ' + l + ' trieu');
+    } else if (n>200 && n<300) {
+        l = 200*7/100 + (n-200)*10/100;
+        alert('Ban lam tot lam ' + l + ' trieu');
+    } else {
+        l = 200 * 7 / 100 + 100 * 10 / 100 + (n - 300) * 15 / 100;
+        alert('Ban that tuyet voi ' + l + ' trieu');
+    }
+</script>
+</body>
+</html>

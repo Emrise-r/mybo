@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tien dien thoai</title>
+</head>
+<body>
+<script>
+    let d1 = parseInt(prompt('Nhap so phut ban goi ngoai mang'));
+    let d2 = parseInt(prompt('Nhap so phut ban goi noi mang'));
+    if (d1== 1) {
+        t1= 1*1000;
+    } else if (d1>1 && d1<=10)
+        t1 = 1000 + (d1-1)*1200;
+        else if (d1>10)
+            t1 = 1000 + 4*1200 + (d1-10)*800;
+    if (d2== 1) {
+        t2= 1*800;
+    } else if (d2>1 && d2<=10)
+        t2 = 800 + (d2-1)*1000;
+    else if (d2>10)
+        t2 = 800 + 4*1000 + (d2-10)*600;
+    let t=t1+t2;
+    alert('Tien dien thoai cua ban '+t+'dong');
+</script>
+</body>
+</html>
