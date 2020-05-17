@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lai NH</title>
+</head>
+<body>
+<script>
+    let m1= parseFloat(prompt('Nhap so tien gui tiet kiem'));
+    let t= parseInt(prompt('Nhap thoi han gui tinh theo nam'));
+    if (t==1)
+        r = 0.071;
+     else if (t<=5)
+        r = 0.075;
+     else if (t<=10)
+        r = 0.1;
+     else
+        r = 0.13;
+     m2 = m1*((1+r)**t);
+     alert('So tien nhan duoc sau khi gui tiet kiem '+t+' nam = '+m2);
+</script>
+</body>
+</html>

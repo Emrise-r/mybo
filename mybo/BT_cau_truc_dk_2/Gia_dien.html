@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gia dien</title>
+</head>
+<body>
+<script>
+    let d1 = parseFloat(prompt('Nhap so dien thang truoc'));
+    let d2 = parseFloat(prompt('Nhap so dien thang nay'));
+    let d = d2 - d1;
+    if (d<=50) {
+        t= d*3000;
+    } else if (d<=100)
+        t = 50*3000 + (d-50)*3500;
+    else if (d>100)
+        t = 50*3000 + 50*3500 + (d-100)*4000;
+    alert('Tien dien cua ban '+t+'dong');
+</script>
+</body>
+</html>

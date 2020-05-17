@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thue TNCN</title>
+</head>
+<body>
+<script>
+    let l= parseFloat(prompt('Nhap luong cua ban'))
+    if (l<=5)
+        t = l*5/100;
+    else if (l<=10)
+       t= 5*5/100 + (l-5)*10/100;
+    else if (l>10)
+        t=5*5/100 +5*10/100 + (l-10)*15/100;
+    alert('Thue thu nhap ca nhan ban phai tra = '+t);
+</script>
+</body>
+</html>
