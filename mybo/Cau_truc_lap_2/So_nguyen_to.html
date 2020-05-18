@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So_nguyen_to</title>
+</head>
+<body>
+<script>
+    let n = parseFloat(prompt('Nhap so luong so nguyen to dau tien'));
+    let c = 1;
+    let checked;
+    let N = 2;
+    while  (c <= n) {
+        let checked = 1
+        for (i = 2;i <= Math.sqrt(N);i++) {
+            if (N % i === 0) {
+                checked = false;
+                break;
+            }
+
+        }
+        if (checked) {
+            document.write(N+'<br>');
+            c++;
+        }
+        N++;
+    }
+
+</script>
+</body>
+</html>
