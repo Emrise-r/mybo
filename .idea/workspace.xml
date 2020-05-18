@@ -25,8 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/Cau_truc_lap_2/So_nguyen_to.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/1-100.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/Fibonacci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/Fizz_Buzz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/So_fibonacci_chia_het_cho_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/Tong_30_so_chia_het_cho_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/tang_giam_nhiet_do.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_lap_2/So_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Cau_truc_lap_2/So_nguyen_to.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,15 +73,15 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git\mybo\BT_cau_truc_dk" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\mybo\BT_vong_lap1" />
       <recent name="D:\git\mybo\BT_cau_truc_dk" />
       <recent name="D:\git\mybo\Demo" />
       <recent name="D:\git\mybo\Script\BT" />
       <recent name="D:\git\mybo\Script\Nghich" />
-      <recent name="D:\git\mybo\CV" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\mybo\BT_cau_truc_dk" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Tinh_S_tam_giac_vuong_1.html">
@@ -149,7 +155,7 @@
       <workItem from="1589766728142" duration="5335000" />
       <workItem from="1589775257259" duration="2441000" />
       <workItem from="1589778160184" duration="3345000" />
-      <workItem from="1589783345176" duration="3422000" />
+      <workItem from="1589783345176" duration="14426000" />
     </task>
     <servers />
   </component>

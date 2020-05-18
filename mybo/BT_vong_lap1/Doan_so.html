@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doan so</title>
+</head>
+<body>
+<button id="b1" onclick="start()">Bat dau</button>
+<script>
+    function start() {
+       let a = parseInt(prompt('Nhap vao so ket thuc'));
+       let lucky = Math.floor(Math.random()*a)+1;
+       console.log(lucky);
+       let turn = Math.floor(Math.random()*(a-1))+1;
+       let n = 1;
+       let win;
+       alert('Ban co ' + turn +' luot doan');
+       while (n <= turn) {
+           win = true;
+           N = parseInt(prompt('Nhap so du doan'));
+           if (N === lucky) {
+               break;
+           }
+           win = false;
+           alert('Ban doan sai, chuc ban may man lan sau');
+           n++;
+       }
+       console.log(win)
+       if (win)
+       alert('Ban da chien thang');
+       else alert(' Da het luot doan, Ban qua nho, doan sai het');
+    }
+</script>
+</body>
+</html>
