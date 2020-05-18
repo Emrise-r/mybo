@@ -25,9 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Gia_dien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Lai_NH.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Thue_thu_nhap_ca_nhan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Cau_truc_lap/Demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Cau_truc_lap/TH.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Cau_truc_lap/TH2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -147,7 +147,8 @@
       <workItem from="1589639664466" duration="977000" />
       <workItem from="1589664284367" duration="557000" />
       <workItem from="1589665050338" duration="154000" />
-      <workItem from="1589728124301" duration="5247000" />
+      <workItem from="1589728124301" duration="6460000" />
+      <workItem from="1589766728142" duration="2378000" />
     </task>
     <servers />
   </component>
@@ -164,6 +165,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="39" key="#Inspections" timestamp="1589432612498">
@@ -254,10 +256,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="484" y="63" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1589266708610" />
-    <state x="142" y="5" key="SettingsEditor" timestamp="1589665203080">
+    <state x="142" y="5" key="SettingsEditor" timestamp="1589756161432">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="142" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1589665203080" />
+    <state x="142" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1589756161432" />
     <state x="450" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589189267056">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
