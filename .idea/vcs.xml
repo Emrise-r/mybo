@@ -6,6 +6,7 @@
     <mapping directory="$PROJECT_DIR$/Myhop" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/my-tom" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mybo/Demo/C0520h1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mybo/Week_1/Demo/C0520h1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/myga" vcs="Git" />
   </component>
 </project>

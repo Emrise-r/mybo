@@ -25,18 +25,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/Demo_tam_giac_anh_minh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/Giai_thua_so_nguyen_duong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_hinh_chu_nhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_tam_giac_vuong_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_tam_giac_vuong_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_tam_giac_vuong_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_tam_giac_vuong_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/Lai_NH.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/Trai_tim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_1/Demo/Xep_hinh_anh_hai.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/TH_mang_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/TH_mang_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/TH_mang_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/TH_so_lon_nhat_trong_mang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap1/So_fibonacci_chia_het_cho_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/So_fibonacci_chia_het_cho_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap1/Tong_30_so_chia_het_cho_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/Tong_30_so_chia_het_cho_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Calculator_Remaster.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk/Calculator_Remaster.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Good_fast_cheap.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk/Good_fast_cheap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Hoa hong.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk/Hoa hong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Hoc_luc.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk/Hoc_luc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/KT_a_chia_het_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk/KT_a_chia_het_b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Kt_tuoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk/Kt_tuoi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/So_lon_nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk/So_lon_nhat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Tinh_tien_dien_thoai.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk/Tinh_tien_dien_thoai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/Xep_Hinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk/Xep_Hinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk/so_duong_hay_am.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk/so_duong_hay_am.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Doi_do_C_sang_F.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk_2/Doi_do_C_sang_F.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Doi_met_sang_feet.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk_2/Doi_met_sang_feet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Gia_dien.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk_2/Gia_dien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Giai_PT_bac_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk_2/Giai_PT_bac_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Giai_phuong_trinh_bac_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk_2/Giai_phuong_trinh_bac_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Kiem_tra_tuoi_nguoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk_2/Kiem_tra_tuoi_nguoi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Lai_NH.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk_2/Lai_NH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Thue_thu_nhap_ca_nhan.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk_2/Thue_thu_nhap_ca_nhan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Tinh_S_hinh_chu_nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk_2/Tinh_S_hinh_chu_nhat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Tinh_S_hinh_vuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk_2/Tinh_S_hinh_vuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_cau_truc_dk_2/Tinh_S_tam_giac_vuong_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/BT_cau_truc_dk_2/Tinh_S_tam_giac_vuong_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap1/1-100.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap1/1-100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap1/Doan_so.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap1/Doan_so.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap1/Fibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap1/Fibonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap1/Fizz_Buzz.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap1/Fizz_Buzz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap1/So_fibonacci_chia_het_cho_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap1/So_fibonacci_chia_het_cho_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap1/Tong_30_so_chia_het_cho_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap1/Tong_30_so_chia_het_cho_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap1/tang_giam_nhiet_do.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap1/tang_giam_nhiet_do.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap_2/Demo_tam_giac_anh_minh.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap_2/Demo_tam_giac_anh_minh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap_2/Giai_thua_so_nguyen_duong.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap_2/Giai_thua_so_nguyen_duong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_hinh_chu_nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap_2/In_hinh_chu_nhat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_tam_giac_vuong_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap_2/In_tam_giac_vuong_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_tam_giac_vuong_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap_2/In_tam_giac_vuong_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_tam_giac_vuong_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap_2/In_tam_giac_vuong_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_tam_giac_vuong_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap_2/In_tam_giac_vuong_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap_2/Lai_NH.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap_2/Lai_NH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap_2/Trai_tim.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap_2/Trai_tim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/CV/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_1/CV/CV.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk/BT1_Switch_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk/BT1_Switch_case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk/BT2_Switch_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk/BT2_Switch_case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk/KT_nam_nhuan.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk/KT_nam_nhuan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk/Toan_tu_ba_ngoi_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk/Toan_tu_ba_ngoi_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk/Toan_tu_ba_ngoi_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk/Toan_tu_ba_ngoi_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk/ex01.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk/ex01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk/hom_nay_la_thu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk/hom_nay_la_thu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk/sign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk_2/BMI_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk_2/BMI_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk_2/BT_switch_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk_2/BT_switch_case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk_2/Do_You_Love_Me.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk_2/Do_You_Love_Me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk_2/Su_kien_ban_phim.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk_2/Su_kien_ban_phim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_dk_2/Su_kien_chuot.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk_2/Su_kien_chuot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_lap/Demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_lap/Demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_lap/Demo_for.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_lap/Demo_for.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_lap/TH.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_lap/TH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_lap/TH2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_lap/TH2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_lap/TH_cau_truc_lap_chong_nhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_lap/TH_cau_truc_lap_chong_nhau.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_lap/TH_do_while.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_lap/TH_do_while.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_lap/TH_dung_while.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_lap/TH_dung_while.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_lap/TH_while_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_lap/TH_while_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_lap_2/Bang_cuu_chuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_lap_2/Bang_cuu_chuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_lap_2/So_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_lap_2/So_nguyen_to.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Demo/C0520h1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Demo/C0520h1/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Demo/C0520h1/form_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Demo/C0520h1/javascript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Demo/C0520h1/test_javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Demo/Xep_hinh_anh_hai.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Form/Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_1/Form/Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Form/Form_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_1/Form/Form_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Form/Form_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_1/Form/Form_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Form/form_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_1/Form/form_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Lyric/Feel_Something.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_1/Lyric/Feel_Something.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/BT/BT_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Script/BT/BT_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/BT/BT_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Script/BT/BT_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/BT/BT_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Script/BT/BT_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/BT/BT_Calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Script/BT/BT_Calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/BT/BT_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Script/BT/BT_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/BT/BT_doi_tien.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Script/BT/BT_doi_tien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/KTBS.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Script/KTBS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/Khai_bao_sd_bien.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Script/Khai_bao_sd_bien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/Nghich/Nghich.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Script/Nghich/Nghich.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/Nghich/Nghich_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Script/Nghich/Nghich_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/Nghich/Nghich_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Script/Nghich/Nghich_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/Script_only/So_nguyen_to.js" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Script/Script_only/So_nguyen_to.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Script/Thuc_hien_toan_tu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Script/Thuc_hien_toan_tu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Table/Ban co vua.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_1/Table/Ban co vua.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Table/Table_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_1/Table/Table_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Table/Table_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_1/Table/Table_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Table/Table_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_1/Table/Table_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Table/Thang.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_1/Table/Thang.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,14 +163,14 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\git\mybo\BT_vong_lap1" />
-      <recent name="D:\git\mybo\BT_cau_truc_dk" />
-      <recent name="D:\git\mybo\Demo" />
-      <recent name="D:\git\mybo\Script\BT" />
-      <recent name="D:\git\mybo\Script\Nghich" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\mybo\BT_cau_truc_dk" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\mybo\Week_1" />
+      <recent name="D:\git\mybo\Week_2" />
+      <recent name="D:\git\mybo\Week_3" />
+      <recent name="D:\git\mybo\BT_vong_lap1" />
       <recent name="D:\git\mybo\BT_cau_truc_dk" />
     </key>
   </component>
@@ -161,7 +247,8 @@
       <workItem from="1589778160184" duration="3345000" />
       <workItem from="1589783345176" duration="14426000" />
       <workItem from="1589807671565" duration="1226000" />
-      <workItem from="1589851010847" duration="15478000" />
+      <workItem from="1589851010847" duration="16472000" />
+      <workItem from="1589870092994" duration="10431000" />
     </task>
     <servers />
   </component>

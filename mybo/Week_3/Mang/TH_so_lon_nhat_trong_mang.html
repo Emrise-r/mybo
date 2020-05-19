@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So lon nhat trong mang</title>
+</head>
+<body>
+<script>
+    let x = [-5,3,7,6,15,1];
+    let m = x[0];
+    let l = 0;
+    for (let i = 1;i <= x.length;i++){
+        if (x[i] > m) {
+            m = x[i];
+            l = i;
+        }
+    }
+    alert('so lon nhat la ' + m + ' vi tri ' + l)
+</script>
+</body>
+</html>
