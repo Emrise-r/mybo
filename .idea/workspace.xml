@@ -25,14 +25,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/1-100.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/Fibonacci.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/Fizz_Buzz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/So_fibonacci_chia_het_cho_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/Tong_30_so_chia_het_cho_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/tang_giam_nhiet_do.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/Demo_tam_giac_anh_minh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/Giai_thua_so_nguyen_duong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_hinh_chu_nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_tam_giac_vuong_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_tam_giac_vuong_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_tam_giac_vuong_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/In_tam_giac_vuong_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/Lai_NH.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/BT_vong_lap_2/Trai_tim.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybo/Cau_truc_lap_2/So_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Cau_truc_lap_2/So_nguyen_to.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap1/So_fibonacci_chia_het_cho_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/So_fibonacci_chia_het_cho_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/BT_vong_lap1/Tong_30_so_chia_het_cho_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/BT_vong_lap1/Tong_30_so_chia_het_cho_7.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +160,8 @@
       <workItem from="1589775257259" duration="2441000" />
       <workItem from="1589778160184" duration="3345000" />
       <workItem from="1589783345176" duration="14426000" />
+      <workItem from="1589807671565" duration="1226000" />
+      <workItem from="1589851010847" duration="15478000" />
     </task>
     <servers />
   </component>
@@ -287,9 +293,9 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="297" y="163" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1589253734769" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589504671991">
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589867947369">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1589504671991" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1589867947369" />
   </component>
 </project>

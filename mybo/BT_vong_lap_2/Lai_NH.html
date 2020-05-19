@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lai NH</title>
+</head>
+<body>
+<script>
+    let m = parseFloat(prompt('Nhap so tien vay'));
+    let t = parseInt(prompt('Nhap so thang vay'));
+    const r = 0.006;
+    let l;
+    for (let i = 1;i <= t;i++) {
+        l = m * (1 + r)**i;
+        document.write('Thang '+i+' phai tra '+ l +'<br>');
+    }
+</script>
+</body>
+</html>

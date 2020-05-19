@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tam giac vuong</title>
+</head>
+<body>
+<script>
+    for (let m = 5;m > 0;m--) {
+        let n = '';
+        let b = '';
+        for (let i = 0;i < (m - 1);i++) {
+            n += '&nbsp&nbsp';
+        }
+        for (let t = 0;t < (6-m);t++) {
+            b += '*';
+        }
+        document.write(n);
+        document.write(b+'<br>');
+    }
+</script>
+</body>
+</html>

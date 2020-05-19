@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<h3>Bài 3: In tam giác vuông. Các góc vuông nằm ở các vị trí khác nhau</h3>
+<input type="button" value="Kiểu 1" onclick="rta1()"><br>
+<input type="button" value="Kiểu 2" onclick="rta2()"><br>
+<input type="button" value="Kiểu 3" onclick="rta3()"><br>
+<input type="button" value="Kiểu 4" onclick="rta4()"><br>
+<script>
+    alert("Bài 3: In tam giác vuông. Các góc vuông nằm ở các vị trí khác nhau");
+    let n = parseInt(prompt("Nhập số dòng hiển thị sao (VD 5):"));
+
+    function rta1() { //right triangle
+        for (let i = 0; i < n; i++) {
+            for (let j = 0; j <= i; j++) {
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+    }
+
+    function rta2() {
+        for (let i = n; i > 0; i--) {
+            for (let j = 0; j < i; j++) {
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+    }
+
+    function rta3() {
+        document.write("<div style='width: " + n/2 + "%' align='right'>");
+        for (let i = 0; i < n; i++) {
+            for (let j = 0; j <= i; j++) {
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+        document.write("</div>");
+    }
+
+    function rta4() {
+        document.write("<div style='width: " + n/2 + "%' align='right'>");
+        for (let i = n; i > 0; i--) {
+            for (let j = 0; j < i; j++) {
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+        document.write("</div>");
+    }
+</script>
+</body>
+</html>
