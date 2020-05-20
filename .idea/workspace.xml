@@ -25,7 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/TH_co_caro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT/BT1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/Demo 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/Demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +157,8 @@
       <workItem from="1589870092994" duration="10431000" />
       <workItem from="1589887470459" duration="1175000" />
       <workItem from="1589939162268" duration="2865000" />
-      <workItem from="1589944304908" duration="1301000" />
+      <workItem from="1589944304908" duration="6145000" />
+      <workItem from="1589956148250" duration="5881000" />
     </task>
     <servers />
   </component>
@@ -271,6 +274,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="450" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1589189267056" />
+    <state x="0" y="0" width="587" height="720" key="find.popup" timestamp="1589948161246">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="0" width="587" height="720" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1589948161246" />
     <state x="380" y="232" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1589664349158">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -287,9 +294,9 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="297" y="163" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1589253734769" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589888307644">
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1589959549890">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1589888307644" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1589959549890" />
   </component>
 </project>

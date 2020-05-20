@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let m = prompt('Nhap cai gi do');
+    let Up = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let Do = 'abcdefghijklmnopqrstuvwxyz';
+    let change = [];
+    for (let i = 0;i < m.length;i++) {
+        if (Up.indexOf(m[i]) >= 0) {
+            change.push(m[i].toLowerCase());
+        } else  if (Do.indexOf(m[i]) >= 0) {
+            change.push(m[i].toUpperCase());
+        } else {
+            change.push(m[i]);
+        }
+    }
+    alert(change.join(''));
+</script>
+</body>
+</html>
