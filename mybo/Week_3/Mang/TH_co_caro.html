@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caro</title>
+</head>
+<body>
+<p id="caro"></p>
+<button onclick="x()">Change value</button>
+<script>
+    let board = [];
+    let data = '';
+    for (let i = 0;i < 5;i++){
+     board[i] = [0,0,0,0,0];
+    }
+    for (let i = 0; i < 5;i++) {
+        data += '<br/>';
+        for (let j = 0;j < 5;j++) {
+            data += board[i][j] + '&nbsp;&nbsp;&nbsp;&nbsp;';
+        }
+    }
+    document.getElementById('caro').innerHTML = data;
+    function x() {
+        let Ox = prompt('Nhap toa do X:');
+        let Oy = prompt('Nhap toa do Y:');
+        data = "";
+        board[Ox][Oy] = 'x';
+        for (let i = 0; i < 5;i++) {
+            data += '<br/>';
+            for (let j =0;j < 5;j++) {
+                data += board[i][j] + '&nbsp;&nbsp;&nbsp;&nbsp;';
+            }
+        }
+        // data += '<br/><br/><button onclick="x()">Change value</button>';
+        document.getElementById('caro').innerHTML += '<hr/>' + data;
+    }
+</script>
+</body>
+</html>
