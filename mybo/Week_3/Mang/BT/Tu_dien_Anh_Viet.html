@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tu dien</title>
+</head>
+<body>
+<h>Nhap tu can dich</h>
+<br>
+<input type="text" id="N">
+<button onclick="dich()" >dich</button>
+<br>
+<input type="text" id="X">
+<script>
+    function dich() {
+        let Anh = ['grace','competitive','interrupted','risk','absolute','invoice','insurance','deductible','wealth','debt','hello'];
+        let Viet = ['duyên dáng','cạnh tranh','gián đoạn','mạo hiểm','tuyệt đối','hợp đồng','bảo hiểm','khấu trừ','giàu vl','nợ','xin chào'];
+        let dich;
+        let n = document.getElementById('N').value;
+        if (Anh.indexOf(n) >= 0) {
+            dich = Viet[Anh.indexOf(n)];
+            document.getElementById('X').value = dich;
+            // console.log(dich);
+        } else if (Viet.indexOf(n) >= 0) {
+            dich = Anh[Viet.indexOf(n)];
+            document.getElementById('X').value = dich;
+            // console.log(dich);
+        } else {
+            alert('Du lieu cua minh co han, ban len google search nhe')
+        }
+    }
+</script>
+</body>
+</html>
