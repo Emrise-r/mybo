@@ -25,8 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT/Faking Textarea on Typing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap1/Doan_so.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/BT_vong_lap1/Doan_so.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybo/Week_3/Mang/BT/Tic_Tac_Toe.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT/Tic_Tac_Toe.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,17 +65,17 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git\mybo\BT_cau_truc_dk" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git\mybo\Week_1" />
       <recent name="D:\git\mybo\Week_2" />
       <recent name="D:\git\mybo\Week_3" />
       <recent name="D:\git\mybo\BT_vong_lap1" />
+      <recent name="D:\git\mybo\BT_cau_truc_dk" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\git\mybo\BT_cau_truc_dk" />
     </key>
   </component>
@@ -160,7 +160,7 @@
       <workItem from="1589956148250" duration="11754000" />
       <workItem from="1590024777110" duration="3597000" />
       <workItem from="1590028690701" duration="3865000" />
-      <workItem from="1590042555653" duration="1354000" />
+      <workItem from="1590042555653" duration="7472000" />
     </task>
     <servers />
   </component>
@@ -192,10 +192,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1589266634207" />
-    <state x="498" y="129" key="FileChooserDialogImpl" timestamp="1589665152052">
+    <state x="498" y="129" key="FileChooserDialogImpl" timestamp="1590047437973">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="498" y="129" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1589665152052" />
+    <state x="498" y="129" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1590047437973" />
     <state x="519" y="258" key="Github.ShareDialog" timestamp="1589664471735">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -268,10 +268,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="484" y="63" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1589266708610" />
-    <state x="142" y="5" key="SettingsEditor" timestamp="1589756161432">
+    <state x="142" y="5" key="SettingsEditor" timestamp="1590047445806">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="142" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1589756161432" />
+    <state x="142" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1590047445806" />
     <state x="450" y="274" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589189267056">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -288,10 +288,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1280.720@0.0.1280.720" timestamp="1589362153365" />
-    <state x="413" y="234" width="622" height="393" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1589665199909">
+    <state x="413" y="234" width="622" height="393" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1590047439595">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="413" y="234" width="622" height="393" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1280.720@0.0.1280.720" timestamp="1589665199909" />
+    <state x="413" y="234" width="622" height="393" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1280.720@0.0.1280.720" timestamp="1590047439595" />
     <state x="297" y="163" key="run.anything.popup" timestamp="1589253734769">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
