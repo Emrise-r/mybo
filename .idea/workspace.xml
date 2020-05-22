@@ -25,9 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT/Faking Textarea on Typing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Ham/Demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Ham/Demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Ham/Demo3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Ham/TH_chuyen_nhiet_do.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Ham/TH_tao_va_goi_ham.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybo/Week_3/Mang/BT/Tic_Tac_Toe.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT/Tic_Tac_Toe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_lap_2/So_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_lap_2/So_nguyen_to.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +62,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -161,6 +167,7 @@
       <workItem from="1590024777110" duration="3597000" />
       <workItem from="1590028690701" duration="3865000" />
       <workItem from="1590042555653" duration="12728000" />
+      <workItem from="1590115176272" duration="13428000" />
     </task>
     <servers />
   </component>

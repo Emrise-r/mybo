@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyen nhiet do</title>
+</head>
+<body>
+<h>Temperature Converter</h>
+<p>Type a value in the F field to convert the value to C</p>
+F:
+<input type="number" id="a1" placeholder="input F"
+    oninput="convert(this.value)"><br>
+C:
+<p id="a2"></p>
+<script>
+    function convert(x) {
+        x = parseFloat(x);
+        document.getElementById("a2").innerHTML = (x - 32) / 1.8;
+    }
+</script>
+</body>
+</html>

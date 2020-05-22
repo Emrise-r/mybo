@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So_nguyen_to</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt('Nhap so luong so nguyen to dau tien'));
+    let c = 1;
+    // let checked = true;
+    let N = 2;
+    while  (c <= n) {
+        if (isCheck(N)) {
+            document.write(N+'<br>');
+            c++;
+        }
+        N++;
+    }
+    function isCheck(a) {
+        let checked = true;
+        for (i = 2;i <= Math.sqrt(a);i++) {
+            if (a % i === 0) {
+                checked = false;
+                break;
+            }
+        }
+        console.log(checked);
+        return checked;
+    }
+</script>
+</body>
+</html>
