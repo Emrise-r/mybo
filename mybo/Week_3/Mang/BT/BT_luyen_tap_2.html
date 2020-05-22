@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [45,6,2,4,7,3,12,9,16,8];
+    let m = a[0]
+    let d = 0;
+    for (let i = 1;i < 10;i++) {
+        if (a[i] > m) {
+            m = a[i];
+            d = i;
+        }
+    }
+    document.write(m + ' vi tri '+ d);
+</script>
+</body>
+</html>
