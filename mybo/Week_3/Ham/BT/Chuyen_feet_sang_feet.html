@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyen feet va meter</title>
+</head>
+<body>
+<div>
+    <h>Convert F to M</h>
+    <br>
+    <input type="text" id="a1" oninput="ftom(this.value)">
+    <p id="a2"></p>
+</div>
+<div style="position:absolute; left:190px; top:8px;">
+    <h>Convert M to F </h>
+    <br>
+    <input type="text" id="a3" oninput="mtof(this.value)">
+    <p id="a4"></p>
+</div>
+<script>
+    function ftom(x) {
+        x = parseFloat(x);
+        document.getElementById('a2').innerHTML = x * 0.305;
+    }
+    function mtof(x) {
+        x = parseFloat(x);
+        document.getElementById('a4').innerHTML = x * 3.279;
+    }
+</script>
+</body>
+</html>
