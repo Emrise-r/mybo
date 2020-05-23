@@ -10,15 +10,15 @@
     let a = 0;
     let z = T.length - 1;
     let l = parseInt(T.length / 2);
-    if (f()) {
+    if (f(T)) {
         alert('Tu cua ban la doi xung');
     } else {
         alert('Tu cua ban khong doi xung');
     }
-    function f() {
+    function f(X) {
         let checked = true;
         while (a < l) {
-            if (T[a] != T[z]) {
+            if (X[a] != X[z]) {
                 checked = false;
                 break;
             }
