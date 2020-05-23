@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 5</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt('Nhap ma tran vuong'));
+    let A = [];
+    let t = 0;
+    for (let i = 0; i < n; i++) {
+        A[i] = [];
+        for (let j = 0; j < n; j++) {
+            A[i][j] = i * j;
+            if (i === j) {
+              t =  f(i,j);
+            }
+        }
+    }
+    alert(t);
+    function f(a,b) {
+        let s = 0;
+        s += A[a][b];
+        return s;
+    }
+</script>
+</body>
+</html>
