@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KT tu doi xung</title>
+</head>
+<body>
+<script>
+    let T = prompt('Nhap tu can kiem tra');
+    let a = 0;
+    let z = T.length - 1;
+    let l = parseInt(T.length / 2);
+    if (f()) {
+        alert('Tu cua ban la doi xung');
+    } else {
+        alert('Tu cua ban khong doi xung');
+    }
+    function f() {
+        let checked = true;
+        while (a < l) {
+            if (T[a] != T[z]) {
+                checked = false;
+                break;
+            }
+            a++;
+            z--;
+        }
+        return checked;
+    }
+</script>
+</body>
+</html>
