@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 2</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt('Nhap so luong so can dao'))
+    let A = [];
+    let a;
+    for (let i = 0 ;i < n;i++){
+        A[i] = parseInt(prompt('Nhap so nguyen'));
+    }
+    function f(x) {
+        let s = 0;
+        for (let i = 0; i < x.length; i++)
+        if (x[i] % 2 != 0) {
+            s += x[i];
+        }
+    return s;
+    }
+    alert(f(A));
+</script>
+</body>
+</html>
