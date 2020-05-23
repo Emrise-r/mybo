@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT 9</title>
+</head>
+<body>
+<script>
+     let A = ['l', 'l', 'a', 'b', 'c', 'e', 'a', 'l'];
+     let b = prompt('Nhap ky tu cua ban');
+     function f(x) {
+         let d = 0;
+         for (let i = 0;i < A.length;i++){
+             if (x == A[i]){
+                 d++;
+             }
+         }
+         if (d != 0) {
+             return d;
+         } else {
+             return -1;
+         }
+     }
+     alert('so lan xuat hien = ' + f(b));
+</script>
+</body>
+</html>

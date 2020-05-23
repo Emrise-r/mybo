@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doi cho</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt('Nhap so luong so can dao'))
+    let A = [];
+    let a;
+    for (let i = 0 ;i < n;i++){
+        A[i] = parseInt(prompt('Nhap so nguyen'));
+    }
+    function f() {
+        let f = 0;
+        l = A.length -1;
+        while (f < l) {
+            let b = A[f];
+            A[f] = A[l];
+            A[l] = b;
+            l--;
+            f++;
+        }
+        a = A.toString();
+        return a;
+    }
+    alert(f())
+</script>
+</body>
+</html>
