@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 4</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt('Nhap so cuoi'));
+    function f(x) {
+        let c = 0;
+        for (let i = 1; i <= x; i++) {
+            if (i % 3 === 0 || i % 7 === 0) {
+                c++;
+            }
+        }
+        return c;
+    }
+    alert('So luong so nguyen chia het cho 3 hoac 7 la ' + f(n));
+</script>
+</body>
+</html>
