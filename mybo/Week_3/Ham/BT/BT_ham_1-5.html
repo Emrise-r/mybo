@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT ham 1-5</title>
+</head>
+<body>
+<script>
+    let A = ['Polaris','Aldebaran','Deneb','Vega','Altair','Dubhe','Regulus'];
+    let B = ['Ursa Minor','Tarurus','Cygnus','Lyra','Aquila','Ursa Major','Leo'];
+    let E = prompt('Nhap ten Ngoi sao cua ban');
+    function f(X) {
+        let Cs;
+        if (A.indexOf(X) >= 0) {
+            Cs = B[A.indexOf(X)];
+             Cs = 'Chom sao cua ban la ' + Cs;
+        } else {
+            Cs = 'Ban nhap khong dung ten ngoi sao';
+        }
+        return Cs;
+    }
+     alert(f(E));
+</script>
+</body>
+</html>
