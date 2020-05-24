@@ -25,16 +25,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_1/BT_luyen_tap_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_1/BT_luyen_tap_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_1/BT_luyen_tap_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_1/BT_luyen_tap_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_1/BT_luyen_tap_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_1/BT_luyen_tap_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_1/BT_luyen_tap_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_2/BT_luyen_tap_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_2/BT_luyen_tap_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_2/BT_luyen_tap_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_2/BT_luyen_tap_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_2/BT_luyen_tap_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_2/BT_luyen_tap_6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybo/Week_3/Mang/BT/BT_luyen_tap_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_1/BT_luyen_tap_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybo/Week_3/Mang/BT/BT_luyen_tap_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_1/BT_luyen_tap_2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +170,7 @@
       <workItem from="1590199190698" duration="23004000" />
       <workItem from="1590241699750" duration="7558000" />
       <workItem from="1590312001922" duration="4090000" />
-      <workItem from="1590331420350" duration="618000" />
+      <workItem from="1590331420350" duration="4125000" />
     </task>
     <servers />
   </component>
@@ -313,9 +310,9 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="297" y="163" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1589253734769" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1590321298439">
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1590335478288">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1590321298439" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1590335478288" />
   </component>
 </project>

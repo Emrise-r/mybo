@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 5</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt('Nhap so phan tu trong chuoi'));
+    let A = [];
+    let B = [];
+    let checked = true;
+    for (i = 0; i < n; i++) {
+        A[i] = prompt('Nhap vao cac phan tu chuoi A');
+    }
+    for (i = 0; i < n; i++) {
+        B[i] = prompt('Nhap vao cac phan tu chuoi B');
+    }
+    for (i = 0; i < n; i++) {
+
+        if (A[i] !== B[i]) {
+            alert('Hai chuoi khong giong nhau');
+            checked = false;
+            break;
+        }
+    }
+    if (checked) {
+        alert('Hai chuoi giong nhau');
+    }
+</script>
+</body>
+</html>
