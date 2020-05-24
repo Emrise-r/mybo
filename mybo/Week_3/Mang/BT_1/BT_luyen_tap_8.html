@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 8</title>
+</head>
+<body>
+<script>
+    let A = [];
+    let n = parseInt(prompt('Nhap vao so phan tu trong mang'));
+    for (let i = 0;i < n; i++ ) {
+        A[i] = parseInt(prompt('Nhap cac phan tu'));
+    }
+    s = A.sort(function (a,b) {
+        return b - a;
+    })
+    alert(s)
+</script>
+</body>
+</html>

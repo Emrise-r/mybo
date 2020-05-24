@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 6</title>
+</head>
+<body>
+<script>
+    let A = [];
+    let n = parseInt(prompt('Nhap vao so phan tu trong mang'));
+    for (let i = 0;i < n; i++ ) {
+        A[i] = parseInt(prompt('Nhap cac phan tu'));
+    }
+    let V = parseInt(prompt('Nhap so nguyen V cam kiem tra'));
+    if (A.indexOf(V) >= 0) {
+        alert("V is in the array");
+    } else {
+        alert("V is not in the array");
+    }
+</script>
+</body>
+</html>

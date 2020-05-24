@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 7</title>
+</head>
+<body>
+<script>
+    let A = [];
+    let n = parseInt(prompt('Nhap vao so phan tu trong mang'));
+    for (let i = 0;i < n; i++ ) {
+        A[i] = parseInt(prompt('Nhap cac phan tu'));
+    }
+    let V = parseInt(prompt('Nhap so nguyen can xoa'));
+    if (A.indexOf(V) >= 0) {
+        for (let i = A.indexOf(V);i < A.length; i++) {
+            A[i] = A[i + 1];
+        }
+        A.pop();
+        alert('Mang moi = '+ A);
+    } else
+    alert('So cua ban khong co trong mang');
+</script>
+</body>
+</html>
