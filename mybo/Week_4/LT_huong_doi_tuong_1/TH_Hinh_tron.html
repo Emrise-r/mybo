@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hinh tron</title>
+</head>
+<body>
+<script>
+    let Circle = function(r) {
+        this.getBk = function() {
+            return r;
+        }
+        this.getS = function() {
+            return Math.PI * r * r;
+        }
+    };
+    let circle = new Circle(2);
+    let c = circle.getBk();
+    let s = circle.getS();
+    document.write(c + ' / ' + s);
+</script>
+</body>
+</html>
