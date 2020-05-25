@@ -25,12 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_2/BT_luyen_tap_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_2/BT_luyen_tap_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_2/BT_luyen_tap_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_2/BT_luyen_tap_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_2/BT_luyen_tap_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_3/Mang/BT_2/BT_luyen_tap_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_4/LT_huong_doi_tuong_1/Demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_4/LT_huong_doi_tuong_1/TH_huong_doi_tuong.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +166,9 @@
       <workItem from="1590199190698" duration="23004000" />
       <workItem from="1590241699750" duration="7558000" />
       <workItem from="1590312001922" duration="4090000" />
-      <workItem from="1590331420350" duration="4125000" />
+      <workItem from="1590331420350" duration="4282000" />
+      <workItem from="1590374462189" duration="1801000" />
+      <workItem from="1590380375008" duration="10453000" />
     </task>
     <servers />
   </component>
