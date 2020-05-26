@@ -25,8 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/Week_4/LT_huong_doi_tuong_1/BT_Rectangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_4/BT/Temperature.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Week_4/LT_huong_doi_tuong_1/BT_Rectangle.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_4/BT/BT_Rectangle.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,15 +69,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\mybo\BT_cau_truc_dk" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\mybo\Week_4\BT" />
       <recent name="D:\git\mybo\Week_3\Mang\BT_1" />
       <recent name="D:\git\mybo\Week_3\Ham\BT\BT_ham_1" />
       <recent name="D:\git\mybo\Week_1" />
       <recent name="D:\git\mybo\Week_2" />
-      <recent name="D:\git\mybo\Week_3" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git\mybo\BT_cau_truc_dk" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Tinh_S_tam_giac_vuong_1.html">
@@ -170,7 +171,7 @@
       <workItem from="1590380375008" duration="14457000" />
       <workItem from="1590455572656" duration="4987000" />
       <workItem from="1590463490874" duration="1298000" />
-      <workItem from="1590467775471" duration="7410000" />
+      <workItem from="1590467775471" duration="9355000" />
     </task>
     <servers />
   </component>
