@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Funny Circles</title>
+</head>
+<body>
+<canvas id="myCanvas" width="3840px" height="2160px" style="border:1px solid #12e6c2;"></canvas>
+<script>
+    function Circle(x,y,r) {
+        this.x = x;
+        this.y = y;
+        this.r = r;
+    }
+     function randomhex() {
+         return Math.floor(Math.random()*255);
+     }
+    function RandomColor() {
+        let red = randomhex();
+        let green = randomhex();
+        let blue = randomhex();
+        return "rgb(" + red + "," + blue + "," + green + ")";
+    }
+
+    function create() {
+        let ctx = document.getElementById('myCanvas').getContext('2d');
+        let r = Math.floor(Math.random() * 300);
+        let x = Math.floor(Math.random() * 3840);
+        let y = Math.floor(Math.random() * 2160);
+        let circle = new Circle(x,y,r);
+        ctx.beginPath();
+        ctx.arc(circle.x, circle.y, circle.r, 0, 2 * Math.PI);
+        ctx.fillStyle = RandomColor();
+        ctx.fill();
+    }
+    let n = parseInt(prompt('Nhap so vong tron ban muon tao'))
+    for (let i = 1; i < n ; i++) {
+        create();
+    }
+
+</script>
+</body>
+</html>
