@@ -25,7 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/Week_4/LT_huong_doi_tuong_1/TH_funny_circles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_4/LT_huong_doi_tuong_1/BT_Rectangle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +168,9 @@
       <workItem from="1590331420350" duration="4282000" />
       <workItem from="1590374462189" duration="1801000" />
       <workItem from="1590380375008" duration="14457000" />
-      <workItem from="1590455572656" duration="4328000" />
+      <workItem from="1590455572656" duration="4987000" />
+      <workItem from="1590463490874" duration="1298000" />
+      <workItem from="1590467775471" duration="7410000" />
     </task>
     <servers />
   </component>
@@ -188,14 +190,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="267" y="39" key="#Inspections" timestamp="1589432612498">
+    <state x="267" y="39" key="#Inspections" timestamp="1590479309216">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="267" y="39" key="#Inspections/0.0.1280.720@0.0.1280.720" timestamp="1589432612498" />
-    <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589267116870">
+    <state x="267" y="39" key="#Inspections/0.0.1280.720@0.0.1280.720" timestamp="1590479309216" />
+    <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590469544416">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1589267116870" />
+    <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1590469544416" />
     <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1589266634207">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

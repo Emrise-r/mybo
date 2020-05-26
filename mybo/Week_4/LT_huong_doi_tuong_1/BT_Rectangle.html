@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rectangle</title>
+</head>
+<body>
+<canvas id="Canvas" style="border:1px solid #12e6c2; background-color: black" width="1920px" height="1080"></canvas>
+<p id="a1"></p>
+<p id="a2"></p>
+<script>
+    function Rectangle(x,y) {
+        this.w = x;
+        this.h = y;
+        this.getS = function () {
+            return this.w * this.h;
+        }
+        this.getC = function () {
+            return 2 * (this.w + this.h);
+        }
+    }
+    function randomx() {
+        let x = Math.floor(Math.random() * 1000);
+        return x;
+    }
+    function randomy() {
+        let y = Math.floor(Math.random() * 1000);
+        return y;
+    }
+    function create() {
+            let ctx = document.getElementById('Canvas').getContext('2d');
+            let x = randomx();
+            let y = randomy();
+            let rectangle = new Rectangle(x,y)
+            ctx.beginPath();
+            ctx.rect(50,50,rectangle.w,rectangle.h);
+            ctx.strokeStyle = 'rgb(30, 148, 232)';
+            ctx.stroke();
+    }
+    create();
+let rect = new Rectangle(randomx(),randomy());
+document.getElementById('a1').innerHTML = rect.getS();
+document.getElementById('a2').innerHTML = rect.getC();
+console.log(create.x);
+</script>
+</body>
+</html>

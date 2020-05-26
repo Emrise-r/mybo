@@ -5,7 +5,7 @@
     <title>Funny Circles</title>
 </head>
 <body>
-<canvas id="myCanvas" width="3840px" height="2160px" style="border:1px solid #12e6c2;"></canvas>
+<canvas id="myCanvas" width="3840px" height="2160px" style="border:1px solid #12e6c2; background-color: black"></canvas>
 <script>
     function Circle(x,y,r) {
         this.x = x;
@@ -30,8 +30,8 @@
         let circle = new Circle(x,y,r);
         ctx.beginPath();
         ctx.arc(circle.x, circle.y, circle.r, 0, 2 * Math.PI);
-        ctx.fillStyle = RandomColor();
-        ctx.fill();
+        ctx.strokeStyle = RandomColor();
+        ctx.stroke();
     }
     let n = parseInt(prompt('Nhap so vong tron ban muon tao'))
     for (let i = 1; i < n ; i++) {
