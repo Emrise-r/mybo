@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>person</title>
+</head>
+<body>
+<script>
+    function Person(first, last, age, gender, interset) {
+        this.name = {
+            first,
+            last
+        };
+        this.age = age;
+        this.gender = gender;
+        this.interest = interset;
+        this.bio = function () {
+            alert(this.name.first + ' ' + this.name.last + ' ' + this.age + ' ' + this.interest[0] +'.' );
+        };
+        this.greeting =function () {
+            alert("Hi! I' m " + this.name.first + '.');
+        };
+    }
+    let emrise = new Person('emrise', 'nguyen', 22, 'male', ['music','skipping']);
+    emrise.bio();
+    alert(emrise.interest[1])
+</script>
+</body>
+</html>
