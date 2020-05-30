@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adam eva</title>
+</head>
+<body>
+<script>
+    let Apple = function (weight) {
+        this.weight = weight;
+        this.decrease = function () {
+            return this.weight--;
+        }
+        this.isEmpty = function () {
+            if (this.weight === 0) {
+                return true;
+            } else return false;
+        }
+        this.getWeight = function () {
+            return this.weight;
+        }
+    }
+    let Human = function (name,gender,weight) {
+        this.name = name;
+        this.gender = gender;
+        this.weight = weight;
+        this.isNam = function () {
+            if (this.gender == 'nam') {
+                return true;
+            } else return false;
+        }
+        this.setGender = function (gender) {
+            this.gender = gender;
+        }
+        this.checkApple = function (Apple) {
+            if (Apple.isEmpty()) {
+                return false;
+            } else return true;
+        }
+        this.eat = function (Apple) {
+            if (this.checkApple(Apple)) {
+                this.weight++;
+                Apple.decrease();
+            } else alert('Da het tao');
+        }
+        this.talk = function () {
+             if (this.isNam()) {
+                 document.write('hi' + '<br>');
+             } else {
+                 document.write('hello' + '<br>');
+             }
+        }
+        this.getName = function () {
+            return this.name;
+        }
+        this.setName = function (name) {
+            this.name = name;
+        }
+        this.getWeight = function () {
+            return this.weight;
+        }
+        this.setWeight = function (weight) {
+            this.weight = weight;
+        }
+    }
+    let apple = new Apple(10);
+    let adam = new Human('Adam','nam',60);
+    let eva = new Human('Eva','nu',55);
+    // eva.checkApple(apple);
+    // eva.eat(apple);
+    // eva.talk();
+    // document.write(eva.getWeight() + '<br>');
+    // document.write(apple.getWeight());
+    while (apple.weight > 0) {
+        console.log(apple.weight);
+        adam.eat(apple);
+        adam.talk();
+        eva.eat(apple);
+        eva.talk();
+        }
+    eva.eat(apple);
+    document.write(eva.getWeight() + '<br>');
+    document.write(adam.getWeight() + '<br>');
+    document.write(apple.weight);
+</script>
+</body>
+</html>

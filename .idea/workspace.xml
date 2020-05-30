@@ -25,13 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/Week_4/BT/BT_di_chuyen_doi_tuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_4/BT/BT_dt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_4/Demo/Demo anh kien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_4/Demo/Demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybo/Week_4/LT_huong_doi_tuong_1/LT_Den_pin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybo/Week_4/BT/BT_adam_eva.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybo/Week_4/LT_huong_doi_tuong_1/TH_huong_doi_tuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_4/LT_huong_doi_tuong_1/TH_huong_doi_tuong.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +185,8 @@
       <workItem from="1590649438951" duration="636000" />
       <workItem from="1590652885516" duration="6579000" />
       <workItem from="1590673377594" duration="27000" />
-      <workItem from="1590713869692" duration="9407000" />
+      <workItem from="1590713869692" duration="14151000" />
+      <workItem from="1590734680738" duration="3663000" />
     </task>
     <servers />
   </component>
@@ -218,6 +214,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1590469544416" />
+    <state x="286" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590734740969">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="286" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1590734740969" />
     <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1589266634207">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
