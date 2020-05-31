@@ -25,8 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybo/Week_4/BT/BT_adam_eva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case_Study/Demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case_Study/Dino.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk_2/Do_You_Love_Me.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybo/Week_2/Cau_truc_dk_2/Do_You_Love_Me.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,15 +70,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\mybo\BT_cau_truc_dk" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git" />
       <recent name="D:\git\mybo\Week_4\Demo" />
       <recent name="D:\git\mybo\Week_4\BT" />
       <recent name="D:\git\mybo\Week_3\Mang\BT_1" />
       <recent name="D:\git\mybo\Week_3\Ham\BT\BT_ham_1" />
-      <recent name="D:\git\mybo\Week_1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git\mybo\BT_cau_truc_dk" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.BT_dt.html">
@@ -187,6 +189,8 @@
       <workItem from="1590673377594" duration="27000" />
       <workItem from="1590713869692" duration="14151000" />
       <workItem from="1590734680738" duration="3663000" />
+      <workItem from="1590825129790" duration="808000" />
+      <workItem from="1590898192736" duration="34166000" />
     </task>
     <servers />
   </component>

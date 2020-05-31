@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dino</title>
+</head>
+<body onload="startGame()">
+<canvas id="canvas" width="480" height="270" style="border: 1px solid #000000"></canvas>
+<div style="text-align:center;width:480px;">
+    <button onclick="Jump()" >JUMP</button><br><br>
+</div>
+</body>
+<script>
+    let dino;
+    let mobj = [];
+    function startGame() {
+        dino = new Component( 30, 40, "red", 20, 230);
+        gameArea.start();
+    }
+    let gameArea ={
+        canvas: document.getElementById("canvas"),
+        start: function () {
+            this.canvas.width = 480;
+            this.canvas.height = 270;
+            this.context = this.canvas.getContext("2d");
+            this.frame = 0;
+            this.interval = setInterval(updateGameArea, 20);
+            // document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+            // window.addEventListener('keydown', function (e) {
+            //     myGameArea.keys = (myGameArea.keys || []);
+            //     myGameArea.keys[e.keyCode] = true;
+            // });
+            // window.addEventListener('keyup', function (e) {
+            //     myGameArea.keys[e.keyCode] = false;
+            // });
+        },
+        clear: function() {
+            this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        },
+        stop : function() {
+            clearInterval(this.interval);
+        }
+    }
+    let Component = function (width, height, color, x, y) {
+      this.width = width;
+      this.height = height;
+      this.speedY = 0;
+      this.x = x;
+      this.y = y;
+      this.draw = function () {
+          ctx = gameArea.context;
+          ctx.fillStyle = color;
+          ctx.fillRect(this.x, this.y, this.width, this.height);
+      }
+      this.newPos = function () {
+
+          this.y += this.speedY;
+      }
+        this.crashWith = function(obj) {
+            let myleft = this.x;
+            let myright = this.x + (this.width);
+            let mytop = this.y;
+            let mybottom = this.y + (this.height);
+            let otherleft = obj.x;
+            let otherright = obj.x + (obj.width);
+            let othertop = obj.y;
+            let otherbottom = obj.y + (obj.height);
+            let crash = true;
+            if ((mybottom < othertop) || (mytop > otherbottom) || (myright < otherleft) || (myleft > otherright)) {
+                crash = false;
+            }
+            return crash;
+        }
+    }
+    // let dino;
+    // let Choke = function() {
+    //     this.width = width;
+    //     this.height = height;
+    //     this.color = color;
+    //     this.x = x;
+    //     this.y = y;
+    //     this.draw = function () {
+    //         ctx = myGameArea.context;
+    //         ctx.fillStyle = this.color;
+    //         ctx.fillRect(this.x, this.y, this.width, this.height);
+    //     }
+    // }
+    let updateGameArea = function () {
+        let x, y;
+        for (let i = 0; i < mobj.length; i++) {
+            if (dino.crashWith(mobj[i])) {
+                gameArea.stop();
+                return;
+            }
+        }
+        gameArea.clear();
+        gameArea.frame += 1;
+        if (gameArea.frame == 1 || ninterval(150)) {
+            for (let i = 0; i < 4; i++) {
+                x = gameArea.canvas.width;
+                height = Math.floor(Math.random() * 50) + 10;
+                y = gameArea.canvas.height - height;
+                mobj.push(new Component(10, height, "green", x + i * 10, y));
+
+            }
+        }
+        for (let i = 0; i < mobj.length; i++) {
+            mobj[i].x += -1;
+            mobj[i].draw();
+        }
+        dino.newPos();
+        dino.draw();
+        this.Jump = function () {
+            if (dino.y < 200) {
+                dino.speedY = 0
+            } else {
+                dino.speedY = -1;
+            }
+        }
+    }
+
+    let ninterval = function(n) {
+        if ((gameArea.frame / n) % 1 == 0) {
+            return true;
+        }
+            return false;
+    }
+    function moveup() {
+        dino.speedY = -1;
+    }
+    // function movedown() {
+    //     dino.speedY = 1;
+    // }
+    function clearmove() {
+        dino.speedY = 0;
+    }
+
+</script>
+</html>
