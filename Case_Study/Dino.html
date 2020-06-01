@@ -7,10 +7,11 @@
 <body onload="startGame()">
 <canvas id="canvas" width="480" height="270" style="border: 1px solid #000000"></canvas>
 <div style="text-align:center;width:480px;">
-    <button onclick="Jump()" >JUMP</button><br><br>
+    <button onkeydown="dino.Jump()" onkeyup="movedown()" >JUMP</button><br><br>
 </div>
 </body>
 <script>
+    let check = false;
     let dino;
     let mobj = [];
     function startGame() {
@@ -34,13 +35,16 @@
             //     myGameArea.keys[e.keyCode] = false;
             // });
         },
-        clear: function() {
+        clear : function() {
             this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
         },
         stop : function() {
             clearInterval(this.interval);
         }
     }
+    // if (dino.speedY + dino.y < 150) {
+    //     check = true;
+    // }
     let Component = function (width, height, color, x, y) {
       this.width = width;
       this.height = height;
@@ -53,23 +57,40 @@
           ctx.fillRect(this.x, this.y, this.width, this.height);
       }
       this.newPos = function () {
-
           this.y += this.speedY;
+          this.hitBottom();
+          this.hitUp();
       }
-        this.crashWith = function(obj) {
-            let myleft = this.x;
-            let myright = this.x + (this.width);
-            let mytop = this.y;
-            let mybottom = this.y + (this.height);
-            let otherleft = obj.x;
-            let otherright = obj.x + (obj.width);
-            let othertop = obj.y;
-            let otherbottom = obj.y + (obj.height);
-            let crash = true;
-            if ((mybottom < othertop) || (mytop > otherbottom) || (myright < otherleft) || (myleft > otherright)) {
-                crash = false;
-            }
-            return crash;
+      this.hitBottom = function () {
+          if (this.speedY + this.y > 270 - this.height ) {
+              this.speedY = 0;
+          }
+      }
+      this.hitUp = function () {
+          if (this.speedY +this.y < 130) {
+              this.speedY = 5
+          }
+      }
+      this.Jump = function () {
+          if (!check) {
+              moveup();
+          }
+
+      }
+      this.crashWith = function (obj) {
+          let myleft = this.x;
+          let myright = this.x + (this.width);
+          let mytop = this.y;
+          let mybottom = this.y + (this.height);
+          let otherleft = obj.x;
+          let otherright = obj.x + (obj.width);
+          let othertop = obj.y;
+          let otherbottom = obj.y + (obj.height);
+          let crash = true;
+          if ((mybottom < othertop) || (mytop > otherbottom) || (myright < otherleft) || (myleft > otherright)) {
+              crash = false;
+          }
+          return crash;
         }
     }
     // let dino;
@@ -90,13 +111,15 @@
         for (let i = 0; i < mobj.length; i++) {
             if (dino.crashWith(mobj[i])) {
                 gameArea.stop();
+                alert('You lose')
                 return;
             }
         }
         gameArea.clear();
         gameArea.frame += 1;
-        if (gameArea.frame == 1 || ninterval(150)) {
-            for (let i = 0; i < 4; i++) {
+        if (gameArea.frame == 1 || ninterval(50)) {
+            let n = Math.floor(Math.random() * 5 + 0)
+            for (let i = 0; i < n; i++) {
                 x = gameArea.canvas.width;
                 height = Math.floor(Math.random() * 50) + 10;
                 y = gameArea.canvas.height - height;
@@ -105,18 +128,12 @@
             }
         }
         for (let i = 0; i < mobj.length; i++) {
-            mobj[i].x += -1;
+            mobj[i].x += -5;
             mobj[i].draw();
         }
         dino.newPos();
         dino.draw();
-        this.Jump = function () {
-            if (dino.y < 200) {
-                dino.speedY = 0
-            } else {
-                dino.speedY = -1;
-            }
-        }
+
     }
 
     let ninterval = function(n) {
@@ -126,14 +143,25 @@
             return false;
     }
     function moveup() {
-        dino.speedY = -1;
+        dino.speedY = -5;
     }
-    // function movedown() {
-    //     dino.speedY = 1;
+    function movedown() {
+        dino.speedY = 5;
+    }
+    // function clearmove() {
+    //     dino.speedY = 0;
     // }
-    function clearmove() {
-        dino.speedY = 0;
-    }
+    // let Jump = function () {
+    //     moveup();
+    //     // let check = true;
+    //     // if (dino.y + dino.speedY < 150) {
+    //     //     check = false;
+    //     // }
+    //     // if (check) {
+    //     //     moveup()
+    //     // } else {movedown()};
+    //
+    // }
 
 </script>
 </html>
