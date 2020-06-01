@@ -11,11 +11,11 @@
 </div>
 </body>
 <script>
-    let check = false;
     let dino;
     let mobj = [];
+    let sobj = [];
     function startGame() {
-        dino = new Component( 30, 40, "red", 20, 230);
+        dino = new Component( 30, 40, 'dino', 20, 230, 'image');
         gameArea.start();
     }
     let gameArea ={
@@ -45,7 +45,11 @@
     // if (dino.speedY + dino.y < 150) {
     //     check = true;
     // }
-    let Component = function (width, height, color, x, y) {
+    let Component = function (width, height, color, x, y, type) {
+      this.type = type;
+      if (type == 'image'&& color == 'dino') {
+          this.image = new Image();
+      }
       this.width = width;
       this.height = height;
       this.speedY = 0;
@@ -53,8 +57,22 @@
       this.y = y;
       this.draw = function () {
           ctx = gameArea.context;
-          ctx.fillStyle = color;
-          ctx.fillRect(this.x, this.y, this.width, this.height);
+          if (type == 'image') {
+              if (gameArea.frame % 2 == 0) {
+                  console.log('1')
+                  color = 'dinorun1.png'
+              }
+              if (gameArea.frame % 2 != 0) {
+                  console.log('2')
+                  color = 'dinorun2.png'
+              }
+              this.image.src = color;
+
+              ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
+          } else {
+              ctx.fillStyle = color;
+              ctx.fillRect(this.x, this.y, this.width, this.height);
+          }
       }
       this.newPos = function () {
           this.y += this.speedY;
@@ -67,21 +85,25 @@
           }
       }
       this.hitUp = function () {
-          if (this.speedY +this.y < 130) {
+          if (this.speedY + this.y < 130) {
               this.speedY = 5
           }
       }
       this.Jump = function () {
-          if (!check) {
+          if (this.speedY <= 0) {
               moveup();
           }
-
       }
+      // this.run = function () {
+      //     if (myGameArea.keys && myGameArea.keys[32]) {
+      //         dino.Jump();
+      //     }
+      // }
       this.crashWith = function (obj) {
-          let myleft = this.x;
-          let myright = this.x + (this.width);
+          let myleft = this.x + 5;
+          let myright = this.x + (this.width) - 5;
           let mytop = this.y;
-          let mybottom = this.y + (this.height);
+          let mybottom = this.y + (this.height) - 7;
           let otherleft = obj.x;
           let otherright = obj.x + (obj.width);
           let othertop = obj.y;
@@ -107,6 +129,11 @@
     //     }
     // }
     let updateGameArea = function () {
+        // if (gameArea.frame % 2 === 0) {
+        //     //dino = new Component( 30, 40, 'dinorun1.png', 20, 230, 'image');
+        // } else {
+        //     //dino = new Component( 30, 40, 'dinorun2.png', 20, 230, 'image');
+        // }
         let x, y;
         for (let i = 0; i < mobj.length; i++) {
             if (dino.crashWith(mobj[i])) {
@@ -117,7 +144,7 @@
         }
         gameArea.clear();
         gameArea.frame += 1;
-        if (gameArea.frame == 1 || ninterval(50)) {
+        if (gameArea.frame === 1 || ninterval(50)) {
             let n = Math.floor(Math.random() * 5 + 0)
             for (let i = 0; i < n; i++) {
                 x = gameArea.canvas.width;
@@ -131,13 +158,21 @@
             mobj[i].x += -5;
             mobj[i].draw();
         }
+        if (gameArea.frame === 1 || ninterval(50)) {
+            x = 0;
+            y = gameArea.canvas.height - 15;
+            sobj.push(new Component(x, y, 'ground', 1200, 15));
+        }
+        for (let i = 0; i < sobj.length; i++) {
+            sobj[i].x += -2;
+            sobj[i].draw();
+        }
         dino.newPos();
         dino.draw();
-
     }
 
     let ninterval = function(n) {
-        if ((gameArea.frame / n) % 1 == 0) {
+        if ((gameArea.frame / n) % 1 === 0) {
             return true;
         }
             return false;
@@ -148,20 +183,7 @@
     function movedown() {
         dino.speedY = 5;
     }
-    // function clearmove() {
-    //     dino.speedY = 0;
-    // }
-    // let Jump = function () {
-    //     moveup();
-    //     // let check = true;
-    //     // if (dino.y + dino.speedY < 150) {
-    //     //     check = false;
-    //     // }
-    //     // if (check) {
-    //     //     moveup()
-    //     // } else {movedown()};
-    //
-    // }
+
 
 </script>
 </html>
