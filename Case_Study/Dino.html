@@ -7,13 +7,16 @@
 <body onload="startGame()">
 <canvas id="canvas" width="480" height="270" style="border: 1px solid #000000"></canvas>
 <div style="text-align:center;width:480px;">
-    <button onkeydown="dino.Jump()" onkeyup="movedown()" >JUMP</button><br><br>
+    <p onkeydown="dino.Jump()" onkeyup="movedown()"></p>
+<!--    <button onkeydown="dino.Jump()" onkeyup="movedown()" >JUMP</button><br><br>-->
 </div>
 </body>
 <script>
     let dino;
     let mobj = [];
     let sobj = [];
+    let Score;
+    let n = 0;
     function startGame() {
         dino = new Component( 30, 40, 'dino', 20, 230);
         gameArea.start();
@@ -26,14 +29,16 @@
             this.context = this.canvas.getContext("2d");
             this.frame = 0;
             this.interval = setInterval(updateGameArea, 50);
-            // document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-            // window.addEventListener('keydown', function (e) {
-            //     myGameArea.keys = (myGameArea.keys || []);
-            //     myGameArea.keys[e.keyCode] = true;
-            // });
-            // window.addEventListener('keyup', function (e) {
-            //     myGameArea.keys[e.keyCode] = false;
-            // });
+            document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+            window.addEventListener('keydown', function (e) {
+                gameArea.keys = (gameArea.keys || []);
+                gameArea.keys[e.keyCode] = true;
+            });
+            window.addEventListener('keyup', function (e) {
+                gameArea.keys[e.keyCode] = false;
+            });
+            // window.onkeydown = dino.Jump();
+            // window.onkeyup = movedown();
         },
         clear : function() {
             this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
@@ -73,17 +78,22 @@
         }
         this.hitBottom = function () {
             if (this.speedY + this.y > 270 - this.height) {
-                this.speedY = 0;
+                clearmove();
             }
         }
         this.hitUp = function () {
             if (this.speedY + this.y < 100) {
-                this.speedY = 5
+                movedown();
             }
         }
         this.Jump = function () {
             if (this.speedY <= 0) {
                 moveup();
+            }
+        }
+        this.Down = function () {
+            if (this.speedY > 0) {
+                movedown();
             }
         }
         this.crashWith = function (obj) {
@@ -115,20 +125,26 @@
         this.draw2 = function () {
             ctx = gameArea.context;
             if (this.type == 'image') {
-                console.log(color);
+                // console.log(color);
                 // console.log(gameArea.frame);
                 this.image.src = color;
-                console.log(this.image)
+                // console.log(this.image)
                 ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
-            } else {
-                ctx.fillStyle = color;
-                ctx.fillRect(this.x, this.y, this.width, this.height);
             }
+            if (this.type == 'text') {
+                ctx.font = this.width + ' ' + this.height;
+                ctx.fillStyle = color;
+                ctx.fillText(this.text, this.x, this.y);
+            }
+            //  else {
+            //     ctx.fillStyle = color;
+            //     ctx.fillRect(this.x, this.y, this.width, this.height);
+            // }
         }
     }
 
     let updateGameArea = function () {
-        let x, y;
+        let x, y, n1, n2;
         for (let i = 0; i < mobj.length; i++) {
             if (dino.crashWith(mobj[i])) {
                 gameArea.stop();
@@ -138,17 +154,32 @@
         }
         gameArea.clear();
         gameArea.frame += 1;
-        if (gameArea.frame === 1 || ninterval(50)) {
+        if (n < 100) {
+            n1 = 60;
+            n2 = -5;
+        }
+        if (100 <= n && n < 200) {
+            n1 = 30;
+            n2 = -10;
+        }
+        if (n >= 200) {
+            n1 = 20;
+            n2 = -15;
+        }
+        if (gameArea.frame === 1 || ninterval(n1)) {
             let n = Math.floor(Math.random() * 5 + 0)
             for (let i = 0; i < n; i++) {
                 x = gameArea.canvas.width;
                 height = Math.floor(Math.random() * 50) + 10;
                 y = gameArea.canvas.height - height;
+                if (height < 25) {
+                    mobj.push(new Component2(20, height, "tree2.png", x + i * 20, y, 'image'));
+                }
                 mobj.push(new Component2(20, height, "tree1.png", x + i * 20, y, 'image'));
             }
         }
         for (let i = 0; i < mobj.length; i++) {
-            mobj[i].x += -5;
+            mobj[i].x += n2;
             mobj[i].draw2();
         }
         if (gameArea.frame === 1 || ninterval(120)) {
@@ -160,6 +191,16 @@
             sobj[i].x += -6;
             sobj[i].draw2();
         }
+        if (gameArea.frame % 5 === 0 ) {
+            n += 1;
+        }
+        Score = new Component2('20px', 'Consolas', 'black', 360, 40, 'text');
+        Score.text= 'Score:' + n;
+        Score.draw2();
+        if (gameArea.keys && gameArea.keys[32]) {
+            console.log(gameArea.keys)
+            dino.Jump();
+        };
         dino.newPos();
         dino.draw();
     }
@@ -171,13 +212,30 @@
     }
 
     function moveup() {
-        dino.speedY = -5;
+        if (n < 100) {
+            dino.speedY = -5;
+        }
+         if (100 <= n && n < 200) {
+            dino.speedY = -8;
+        }
+         if (n >= 200) {
+             dino.speedY = -10;
+         }
     }
 
     function movedown() {
-        dino.speedY = 5;
+        if (n < 100) {
+            dino.speedY = 5;
+        }
+        if (100 <= n && n < 200) {
+            dino.speedY = 8;
+        } if (n >= 200) {
+            dino.speedY = 10;
+        }
     }
 
-
+    function clearmove() {
+        dino.speedY = 0;
+    }
 </script>
 </html>
