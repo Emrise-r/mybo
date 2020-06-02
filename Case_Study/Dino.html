@@ -7,8 +7,7 @@
 <body onload="startGame()">
 <canvas id="canvas" width="480" height="270" style="border: 1px solid #000000"></canvas>
 <div style="text-align:center;width:480px;">
-    <p onkeydown="dino.Jump()" onkeyup="movedown()"></p>
-<!--    <button onkeydown="dino.Jump()" onkeyup="movedown()" >JUMP</button><br><br>-->
+<!--    <button onkeydown="dino.Jump()" onkeyup="dino.movedown()" >JUMP</button><br><br>-->
 </div>
 </body>
 <script>
@@ -37,8 +36,8 @@
             window.addEventListener('keyup', function (e) {
                 gameArea.keys[e.keyCode] = false;
             });
-            // window.onkeydown = dino.Jump();
-            // window.onkeyup = movedown();
+        //     // window.onkeydown = dino.Jump();
+        //     // window.onkeyup = movedown();
         },
         clear : function() {
             this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
@@ -92,7 +91,7 @@
             }
         }
         this.Down = function () {
-            if (this.speedY > 0) {
+            if (this.speedY < 0) {
                 movedown();
             }
         }
@@ -198,9 +197,12 @@
         Score.text= 'Score:' + n;
         Score.draw2();
         if (gameArea.keys && gameArea.keys[32]) {
-            console.log(gameArea.keys)
+            console.log(1);
             dino.Jump();
-        };
+        } else {
+            dino.Down();
+        }
+        console.log(dino.speedY);
         dino.newPos();
         dino.draw();
     }
