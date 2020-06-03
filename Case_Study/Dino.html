@@ -19,7 +19,7 @@
     let myMusic;
     function startGame() {
         dino = new Component( 30, 40, 'dino', 20, 230);
-        myMusic = new sound('OceanRx.mp3');
+        myMusic = new Sound('OceanRx.mp3');
         myMusic.play();
         gameArea.start();
     }
@@ -63,10 +63,10 @@
             ctx = gameArea.context;
             // console.log(src);
             // console.log(gameArea.frame);
-            if (gameArea.frame % 2 == 0) {
+            if (gameArea.frame % 2 === 0) {
                 src = 'dinorun1.png';
             }
-            if (gameArea.frame % 2 != 0) {
+            if (gameArea.frame % 2 !== 0) {
                 src = 'dinorun2.png';
             }
             this.image.src = src;
@@ -116,7 +116,7 @@
     }
     let Component2 = function (width, height, color, x, y, type) {
         this.type = type;
-        if (this.type == 'image') {
+        if (this.type === 'image') {
             this.image = new Image();
         }
         this.width = width;
@@ -126,14 +126,14 @@
         this.y = y;
         this.draw2 = function () {
             ctx = gameArea.context;
-            if (this.type == 'image') {
+            if (this.type === 'image') {
                 // console.log(color);
                 // console.log(gameArea.frame);
                 this.image.src = color;
                 // console.log(this.image)
                 ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
             }
-            if (this.type == 'text') {
+            if (this.type === 'text') {
                 ctx.font = this.width + ' ' + this.height;
                 ctx.fillStyle = color;
                 ctx.fillText(this.text, this.x, this.y);
@@ -170,7 +170,7 @@
             n2 = -15;
         }
         if (gameArea.frame === 1 || ninterval(n1)) {
-            let n = Math.floor(Math.random() * 5 + 0)
+            let n = Math.floor(Math.random() * 5) + 0;
             for (let i = 0; i < n; i++) {
                 x = gameArea.canvas.width;
                 height = Math.floor(Math.random() * 50) + 10;
@@ -210,7 +210,7 @@
         dino.newPos();
         dino.draw();
     }
-    function sound(src) {
+    function Sound(src) {
         this.sound = document.createElement("audio");
         this.sound.src = src;
         this.sound.setAttribute("preload", "auto");
