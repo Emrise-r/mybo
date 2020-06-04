@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 1</title>
+</head>
+<body>
+<script>
+    let diem = [6, 7, 9, 2, 4, 4, 5];
+    function findMax(A) {
+        let max = A[0];
+        for (let i = 1; i < A.length; i++) {
+            if (max < A[i]) {
+                max = A[i];
+            }
+        }
+        return max;
+    }
+    document.write(findMax(diem));
+</script>
+</body>
+</html>

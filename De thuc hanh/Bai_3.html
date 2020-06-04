@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 3</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt('Nhap so luong so fibonacci '))
+    let x = parseInt(prompt('Nhap so nguyen'));
+    function isFibonacci(n, x) {
+        let count = 1;
+        let a = 1;
+        let b = 0;
+        let c;
+        let check = false;
+        while (count <= n) {
+            c = a + b;
+            if (c === x) {
+                check = true;
+                break;
+            }
+            count++;
+            a = b;
+            b = c;
+        }
+        return check;
+    }
+    alert(isFibonacci(n, x));
+</script>
+</body>
+</html>

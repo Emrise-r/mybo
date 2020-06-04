@@ -25,8 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa456e31-72f0-4fbb-9eec-74af9e71fd70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/De thuc hanh/Bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/De thuc hanh/Bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/De thuc hanh/Bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/De thuc hanh/Bai_4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Case_Study/Dino.html" beforeDir="false" afterPath="$PROJECT_DIR$/Case_Study/Dino.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +199,9 @@
       <workItem from="1591058329279" duration="17478000" />
       <workItem from="1591079600089" duration="5802000" />
       <workItem from="1591105555274" duration="506000" />
-      <workItem from="1591146630826" duration="8972000" />
+      <workItem from="1591146630826" duration="9813000" />
+      <workItem from="1591231032310" duration="1931000" />
+      <workItem from="1591233602882" duration="4468000" />
     </task>
     <servers />
   </component>
@@ -216,10 +221,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="267" y="39" key="#Inspections" timestamp="1590479309216">
+    <state x="267" y="39" key="#Inspections" timestamp="1591161063642">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="267" y="39" key="#Inspections/0.0.1280.720@0.0.1280.720" timestamp="1590479309216" />
+    <state x="267" y="39" key="#Inspections/0.0.1280.720@0.0.1280.720" timestamp="1591161063642" />
     <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590469544416">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

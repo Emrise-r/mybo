@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 2</title>
+</head>
+<body>
+<script>
+    let Arr = [1, 2, 3, 4, 5, 6, 7, 12, 6, 13];
+    let x = parseInt(prompt('Nhap so nguyen x'))
+    function tryRemoveFromArray(A, n) {
+        for (let i = 0; i < A.length; i++) {
+            if (n === A[i])  {
+                A.splice(i, 1);
+            }
+        }
+        return A;
+    }
+    document.write(tryRemoveFromArray(Arr, x));
+</script>
+</body>
+</html>
