@@ -9,7 +9,7 @@
     let Arr = [1, 2, 3, 4, 5, 6, 7, 12, 6, 13];
     let x = parseInt(prompt('Nhap so nguyen x'))
     function tryRemoveFromArray(A, n) {
-        for (let i = 0; i < A.length; i++) {
+        for (let i = 0; i < A.length - 1; i++) {
             if (n === A[i])  {
                 A.splice(i, 1);
             }
